@@ -1,0 +1,165 @@
+{
+ "source": "model",
+ "disclaimer": "百度基础 WebAPI 无批量高程接口；本文件是自建的坡度字典，属模型假设，非实测。",
+ "lowland_falloff_km": 5.0,
+ "lowland_bands": [
+  {
+   "km0": 430.0,
+   "km1": 470.0,
+   "weight": 0.95
+  },
+  {
+   "km0": 560.0,
+   "km1": 640.0,
+   "weight": 0.5
+  }
+ ],
+ "profile": [
+  {
+   "km": 0.0,
+   "elev_m": 400,
+   "lowland": 0.15
+  },
+  {
+   "km": 25.0,
+   "elev_m": 573.3,
+   "lowland": 0.15
+  },
+  {
+   "km": 50.0,
+   "elev_m": 940.3,
+   "lowland": 0.15
+  },
+  {
+   "km": 75.0,
+   "elev_m": 1378.7,
+   "lowland": 0.15
+  },
+  {
+   "km": 100.0,
+   "elev_m": 1073.0,
+   "lowland": 0.15
+  },
+  {
+   "km": 125.0,
+   "elev_m": 925.8,
+   "lowland": 0.15
+  },
+  {
+   "km": 150.0,
+   "elev_m": 851.5,
+   "lowland": 0.15
+  },
+  {
+   "km": 175.0,
+   "elev_m": 777.2,
+   "lowland": 0.15
+  },
+  {
+   "km": 200.0,
+   "elev_m": 701.5,
+   "lowland": 0.15
+  },
+  {
+   "km": 225.0,
+   "elev_m": 625.7,
+   "lowland": 0.15
+  },
+  {
+   "km": 250.0,
+   "elev_m": 556.8,
+   "lowland": 0.15
+  },
+  {
+   "km": 275.0,
+   "elev_m": 532.4,
+   "lowland": 0.15
+  },
+  {
+   "km": 300.0,
+   "elev_m": 512.8,
+   "lowland": 0.15
+  },
+  {
+   "km": 325.0,
+   "elev_m": 547.8,
+   "lowland": 0.15
+  },
+  {
+   "km": 350.0,
+   "elev_m": 643.7,
+   "lowland": 0.15
+  },
+  {
+   "km": 375.0,
+   "elev_m": 772.2,
+   "lowland": 0.15
+  },
+  {
+   "km": 400.0,
+   "elev_m": 785.1,
+   "lowland": 0.15
+  },
+  {
+   "km": 425.0,
+   "elev_m": 703.6,
+   "lowland": 0.15
+  },
+  {
+   "km": 450.0,
+   "elev_m": 501.7,
+   "lowland": 0.95
+  },
+  {
+   "km": 475.0,
+   "elev_m": 650.9,
+   "lowland": 0.15
+  },
+  {
+   "km": 500.0,
+   "elev_m": 691.5,
+   "lowland": 0.15
+  },
+  {
+   "km": 525.0,
+   "elev_m": 638.5,
+   "lowland": 0.15
+  },
+  {
+   "km": 550.0,
+   "elev_m": 585.5,
+   "lowland": 0.15
+  },
+  {
+   "km": 575.0,
+   "elev_m": 532.5,
+   "lowland": 0.5
+  },
+  {
+   "km": 600.0,
+   "elev_m": 490.9,
+   "lowland": 0.5
+  },
+  {
+   "km": 625.0,
+   "elev_m": 472.6,
+   "lowland": 0.5
+  },
+  {
+   "km": 650.0,
+   "elev_m": 478.0,
+   "lowland": 0.15
+  },
+  {
+   "km": 675.0,
+   "elev_m": 485.0,
+   "lowland": 0.15
+  },
+  {
+   "km": 690.43,
+   "elev_m": 490,
+   "lowland": 0.15
+  }
+ ],
+ "total_km": 690.4
+}

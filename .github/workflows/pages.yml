@@ -1,0 +1,54 @@
+name: Deploy demo to GitHub Pages
+
+# 推送到 main 即自动部署；也可在 Actions 页手动触发
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # 只发布演示真正需要的文件（照搬 ohbj 的做法：不把脚本与中间产物推上站点）
+      - name: Stage site
+        run: |
+          set -e
+          mkdir -p _site/data _site/app _site/video _site/banner
+          cp index.html _site/
+          cp app/config.js app/model.js app/app.js app/style.css _site/app/
+          cp data/corridors.json data/weather_cache.json data/terrain.json \
+             data/stations.json data/scenarios.json _site/data/
+          cp README.md _site/README.md
+          if [ -d docs ]; then cp -r docs _site/docs; fi
+          # 正片：发布到站点并改成 ASCII 文件名，方便在 README 里引用/内嵌
+          if ls video/正片-*.mp4 >/dev/null 2>&1; then
+            cp video/正片-*.mp4 _site/video/demo.mp4
+          fi
+          cp banner/*.webp _site/banner/ 2>/dev/null || true
+          touch _site/.nojekyll
+          echo "--- staged ---"
+          find _site -type f | sort
+
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

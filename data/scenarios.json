@@ -1,0 +1,74 @@
+{
+ "corridor_id": "xg-cd-g5",
+ "scenarios": [
+  {
+   "id": "s1-0800",
+   "title": "08:00 出发 · 撞上雨带",
+   "depart_hour": 8,
+   "soc0": 0.9,
+   "mass_kg": 49000,
+   "story": "按计划出发：到广元时正值雨带最强时段，且电量同时逼近告警线。",
+   "expect": {
+    "total_km": 690.72,
+    "hazard_count": 1,
+    "hazard_peak_rain": 46.1,
+    "warn_km": 320.69,
+    "soc_min_pct": 17.7,
+    "soc_end_pct": 17.7,
+    "risk_exposure_km": 3.72,
+    "charge_stops": 1,
+    "detour_km": 0.7,
+    "minutes": 778.3,
+    "energy_kwh": 1167.6,
+    "verdict": "recharge-required",
+    "chosen": "B"
+   }
+  },
+  {
+   "id": "s2-0400",
+   "title": "04:00 出发 · 抢在雨前",
+   "depart_hour": 4,
+   "soc0": 0.9,
+   "mass_kg": 49000,
+   "story": "同样的车、同样的路，只是早走 3 小时：雨带还没起来，风险暴露接近 0。",
+   "expect": {
+    "total_km": 690.72,
+    "hazard_count": 0,
+    "hazard_peak_rain": 0,
+    "warn_km": 296.02,
+    "soc_min_pct": 17.6,
+    "soc_end_pct": 17.6,
+    "risk_exposure_km": 14.85,
+    "charge_stops": 1,
+    "detour_km": 0,
+    "minutes": 728.1,
+    "energy_kwh": 1210.9,
+    "verdict": "recharge-required",
+    "chosen": "A"
+   }
+  },
+  {
+   "id": "s3-heavy",
+   "title": "满载重车 · 低电量出发",
+   "depart_hour": 8,
+   "soc0": 0.35,
+   "mass_kg": 55000,
+   "story": "重载 + 出车电量低：即使按最优方案也无法一程到达，必须给出「不可行」的诚实结论与建议。",
+   "expect": {
+    "total_km": 690.72,
+    "hazard_count": 1,
+    "hazard_peak_rain": 46.1,
+    "warn_km": 24.67,
+    "soc_min_pct": -108.4,
+    "soc_end_pct": -108.4,
+    "risk_exposure_km": 51.72,
+    "charge_stops": 0,
+    "detour_km": 0,
+    "minutes": 612.1,
+    "energy_kwh": 1290.5,
+    "verdict": "infeasible",
+    "chosen": null
+   }
+  }
+ ]
+}

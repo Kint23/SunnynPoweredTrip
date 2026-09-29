@@ -1,0 +1,5836 @@
+{
+ "generated_by": "tools/make_demo_data.py",
+ "kind": "simulated",
+ "disclaimer": "离线仿真缓存，用于保证 Demo 与视频可复现；接入线上天气查询后字段不变。",
+ "grid": [
+  {
+   "km": 0.0,
+   "bd": [
+    109.081538,
+    34.335081
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.55,
+     "wind_ms": 3.46,
+     "wind_dir_deg": 200.0,
+     "vis_km": 21.77,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.67,
+     "wind_ms": 3.68,
+     "wind_dir_deg": 212.0,
+     "vis_km": 21.72,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.7,
+     "wind_ms": 3.88,
+     "wind_dir_deg": 224.0,
+     "vis_km": 21.71,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.61,
+     "wind_ms": 4.06,
+     "wind_dir_deg": 236.0,
+     "vis_km": 21.74,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.48,
+     "wind_ms": 4.21,
+     "wind_dir_deg": 248.0,
+     "vis_km": 21.8,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.4,
+     "wind_ms": 4.33,
+     "wind_dir_deg": 260.0,
+     "vis_km": 21.83,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.43,
+     "wind_ms": 4.44,
+     "wind_dir_deg": 272.0,
+     "vis_km": 21.82,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.55,
+     "wind_ms": 4.53,
+     "wind_dir_deg": 284.0,
+     "vis_km": 21.77,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.67,
+     "wind_ms": 4.57,
+     "wind_dir_deg": 296.0,
+     "vis_km": 21.72,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.7,
+     "wind_ms": 4.57,
+     "wind_dir_deg": 308.0,
+     "vis_km": 21.71,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 0.61,
+     "wind_ms": 4.51,
+     "wind_dir_deg": 320.0,
+     "vis_km": 21.74,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 0.48,
+     "wind_ms": 4.42,
+     "wind_dir_deg": 332.0,
+     "vis_km": 21.8,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 0.4,
+     "wind_ms": 4.29,
+     "wind_dir_deg": 344.0,
+     "vis_km": 21.83,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 0.44,
+     "wind_ms": 4.15,
+     "wind_dir_deg": 356.0,
+     "vis_km": 21.82,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 0.56,
+     "wind_ms": 3.99,
+     "wind_dir_deg": 8.0,
+     "vis_km": 21.77,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 0.67,
+     "wind_ms": 3.81,
+     "wind_dir_deg": 20.0,
+     "vis_km": 21.72,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 0.69,
+     "wind_ms": 3.61,
+     "wind_dir_deg": 32.0,
+     "vis_km": 21.71,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 0.61,
+     "wind_ms": 3.39,
+     "wind_dir_deg": 44.0,
+     "vis_km": 21.74,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.48,
+     "wind_ms": 3.18,
+     "wind_dir_deg": 56.0,
+     "vis_km": 21.8,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.4,
+     "wind_ms": 2.97,
+     "wind_dir_deg": 68.0,
+     "vis_km": 21.83,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.44,
+     "wind_ms": 2.8,
+     "wind_dir_deg": 80.0,
+     "vis_km": 21.82,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.56,
+     "wind_ms": 2.66,
+     "wind_dir_deg": 92.0,
+     "vis_km": 21.77,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.67,
+     "wind_ms": 2.54,
+     "wind_dir_deg": 104.0,
+     "vis_km": 21.72,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.69,
+     "wind_ms": 2.45,
+     "wind_dir_deg": 116.0,
+     "vis_km": 21.71,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 25.0,
+   "bd": [
+    109.305991,
+    34.209099
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.64,
+     "wind_ms": 3.6,
+     "wind_dir_deg": 208.6,
+     "vis_km": 21.73,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.7,
+     "wind_ms": 3.8,
+     "wind_dir_deg": 220.6,
+     "vis_km": 21.71,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.64,
+     "wind_ms": 3.99,
+     "wind_dir_deg": 232.6,
+     "vis_km": 21.73,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.52,
+     "wind_ms": 4.15,
+     "wind_dir_deg": 244.6,
+     "vis_km": 21.78,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.41,
+     "wind_ms": 4.29,
+     "wind_dir_deg": 256.6,
+     "vis_km": 21.83,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.42,
+     "wind_ms": 4.4,
+     "wind_dir_deg": 268.6,
+     "vis_km": 21.83,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.52,
+     "wind_ms": 4.5,
+     "wind_dir_deg": 280.6,
+     "vis_km": 21.78,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.65,
+     "wind_ms": 4.56,
+     "wind_dir_deg": 292.6,
+     "vis_km": 21.73,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.7,
+     "wind_ms": 4.58,
+     "wind_dir_deg": 304.6,
+     "vis_km": 21.71,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.64,
+     "wind_ms": 4.54,
+     "wind_dir_deg": 316.6,
+     "vis_km": 21.73,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 0.51,
+     "wind_ms": 4.46,
+     "wind_dir_deg": 328.6,
+     "vis_km": 21.78,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 0.41,
+     "wind_ms": 4.34,
+     "wind_dir_deg": 340.6,
+     "vis_km": 21.83,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 0.42,
+     "wind_ms": 4.21,
+     "wind_dir_deg": 352.6,
+     "vis_km": 21.82,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 0.52,
+     "wind_ms": 4.06,
+     "wind_dir_deg": 4.6,
+     "vis_km": 21.78,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 0.65,
+     "wind_ms": 3.89,
+     "wind_dir_deg": 16.6,
+     "vis_km": 21.73,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 0.7,
+     "wind_ms": 3.69,
+     "wind_dir_deg": 28.6,
+     "vis_km": 21.71,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 0.64,
+     "wind_ms": 3.48,
+     "wind_dir_deg": 40.6,
+     "vis_km": 21.73,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 0.51,
+     "wind_ms": 3.26,
+     "wind_dir_deg": 52.6,
+     "vis_km": 21.79,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.41,
+     "wind_ms": 3.05,
+     "wind_dir_deg": 64.6,
+     "vis_km": 21.83,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.42,
+     "wind_ms": 2.86,
+     "wind_dir_deg": 76.6,
+     "vis_km": 21.82,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.52,
+     "wind_ms": 2.71,
+     "wind_dir_deg": 88.6,
+     "vis_km": 21.78,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.65,
+     "wind_ms": 2.59,
+     "wind_dir_deg": 100.6,
+     "vis_km": 21.73,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.7,
+     "wind_ms": 2.49,
+     "wind_dir_deg": 112.6,
+     "vis_km": 21.71,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.64,
+     "wind_ms": 2.41,
+     "wind_dir_deg": 124.6,
+     "vis_km": 21.73,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 50.0,
+   "bd": [
+    109.186284,
+    34.046853
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.7,
+     "wind_ms": 3.72,
+     "wind_dir_deg": 216.9,
+     "vis_km": 21.71,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.67,
+     "wind_ms": 3.92,
+     "wind_dir_deg": 228.9,
+     "vis_km": 21.72,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.55,
+     "wind_ms": 4.09,
+     "wind_dir_deg": 240.9,
+     "vis_km": 21.77,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.43,
+     "wind_ms": 4.23,
+     "wind_dir_deg": 252.9,
+     "vis_km": 21.82,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.4,
+     "wind_ms": 4.36,
+     "wind_dir_deg": 264.9,
+     "vis_km": 21.83,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.49,
+     "wind_ms": 4.47,
+     "wind_dir_deg": 276.9,
+     "vis_km": 21.8,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.62,
+     "wind_ms": 4.54,
+     "wind_dir_deg": 288.9,
+     "vis_km": 21.74,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.7,
+     "wind_ms": 4.58,
+     "wind_dir_deg": 300.9,
+     "vis_km": 21.71,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.66,
+     "wind_ms": 4.56,
+     "wind_dir_deg": 312.9,
+     "vis_km": 21.72,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.55,
+     "wind_ms": 4.49,
+     "wind_dir_deg": 324.9,
+     "vis_km": 21.77,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 0.43,
+     "wind_ms": 4.39,
+     "wind_dir_deg": 336.9,
+     "vis_km": 21.82,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 0.4,
+     "wind_ms": 4.26,
+     "wind_dir_deg": 348.9,
+     "vis_km": 21.83,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 0.49,
+     "wind_ms": 4.12,
+     "wind_dir_deg": 0.9,
+     "vis_km": 21.79,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 0.62,
+     "wind_ms": 3.96,
+     "wind_dir_deg": 12.9,
+     "vis_km": 21.74,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 0.7,
+     "wind_ms": 3.77,
+     "wind_dir_deg": 24.9,
+     "vis_km": 21.71,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 0.66,
+     "wind_ms": 3.57,
+     "wind_dir_deg": 36.9,
+     "vis_km": 21.72,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 0.54,
+     "wind_ms": 3.34,
+     "wind_dir_deg": 48.9,
+     "vis_km": 21.77,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 0.43,
+     "wind_ms": 3.13,
+     "wind_dir_deg": 60.9,
+     "vis_km": 21.82,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.41,
+     "wind_ms": 2.93,
+     "wind_dir_deg": 72.9,
+     "vis_km": 21.83,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.49,
+     "wind_ms": 2.77,
+     "wind_dir_deg": 84.9,
+     "vis_km": 21.79,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.62,
+     "wind_ms": 2.64,
+     "wind_dir_deg": 96.9,
+     "vis_km": 21.74,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.7,
+     "wind_ms": 2.52,
+     "wind_dir_deg": 108.9,
+     "vis_km": 21.71,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.66,
+     "wind_ms": 2.43,
+     "wind_dir_deg": 120.9,
+     "vis_km": 21.72,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.54,
+     "wind_ms": 2.37,
+     "wind_dir_deg": 132.9,
+     "vis_km": 21.77,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 75.0,
+   "bd": [
+    108.969142,
+    33.913317
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.68,
+     "wind_ms": 3.84,
+     "wind_dir_deg": 224.8,
+     "vis_km": 21.71,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.58,
+     "wind_ms": 4.02,
+     "wind_dir_deg": 236.8,
+     "vis_km": 21.76,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.46,
+     "wind_ms": 4.17,
+     "wind_dir_deg": 248.8,
+     "vis_km": 21.81,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.4,
+     "wind_ms": 4.31,
+     "wind_dir_deg": 260.8,
+     "vis_km": 21.83,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.46,
+     "wind_ms": 4.43,
+     "wind_dir_deg": 272.8,
+     "vis_km": 21.81,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.59,
+     "wind_ms": 4.52,
+     "wind_dir_deg": 284.8,
+     "vis_km": 21.75,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.69,
+     "wind_ms": 4.57,
+     "wind_dir_deg": 296.8,
+     "vis_km": 21.71,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.68,
+     "wind_ms": 4.57,
+     "wind_dir_deg": 308.8,
+     "vis_km": 21.71,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.58,
+     "wind_ms": 4.52,
+     "wind_dir_deg": 320.8,
+     "vis_km": 21.76,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.45,
+     "wind_ms": 4.43,
+     "wind_dir_deg": 332.8,
+     "vis_km": 21.81,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 0.4,
+     "wind_ms": 4.32,
+     "wind_dir_deg": 344.8,
+     "vis_km": 21.83,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 0.46,
+     "wind_ms": 4.18,
+     "wind_dir_deg": 356.8,
+     "vis_km": 21.81,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 0.59,
+     "wind_ms": 4.03,
+     "wind_dir_deg": 8.8,
+     "vis_km": 21.75,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 0.69,
+     "wind_ms": 3.85,
+     "wind_dir_deg": 20.8,
+     "vis_km": 21.71,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 0.68,
+     "wind_ms": 3.65,
+     "wind_dir_deg": 32.8,
+     "vis_km": 21.71,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 0.58,
+     "wind_ms": 3.43,
+     "wind_dir_deg": 44.8,
+     "vis_km": 21.76,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 0.45,
+     "wind_ms": 3.21,
+     "wind_dir_deg": 56.8,
+     "vis_km": 21.81,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 0.4,
+     "wind_ms": 3.01,
+     "wind_dir_deg": 68.8,
+     "vis_km": 21.83,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.46,
+     "wind_ms": 2.83,
+     "wind_dir_deg": 80.8,
+     "vis_km": 21.81,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.59,
+     "wind_ms": 2.69,
+     "wind_dir_deg": 92.8,
+     "vis_km": 21.75,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.69,
+     "wind_ms": 2.57,
+     "wind_dir_deg": 104.8,
+     "vis_km": 21.71,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.68,
+     "wind_ms": 2.47,
+     "wind_dir_deg": 116.8,
+     "vis_km": 21.71,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.57,
+     "wind_ms": 2.39,
+     "wind_dir_deg": 128.8,
+     "vis_km": 21.76,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.45,
+     "wind_ms": 2.35,
+     "wind_dir_deg": 140.8,
+     "vis_km": 21.81,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 100.0,
+   "bd": [
+    108.975805,
+    33.69738
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.61,
+     "wind_ms": 3.95,
+     "wind_dir_deg": 232.2,
+     "vis_km": 21.74,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.48,
+     "wind_ms": 4.11,
+     "wind_dir_deg": 244.2,
+     "vis_km": 21.8,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.4,
+     "wind_ms": 4.26,
+     "wind_dir_deg": 256.2,
+     "vis_km": 21.83,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.43,
+     "wind_ms": 4.39,
+     "wind_dir_deg": 268.2,
+     "vis_km": 21.82,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.55,
+     "wind_ms": 4.49,
+     "wind_dir_deg": 280.2,
+     "vis_km": 21.77,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.67,
+     "wind_ms": 4.56,
+     "wind_dir_deg": 292.2,
+     "vis_km": 21.72,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.7,
+     "wind_ms": 4.58,
+     "wind_dir_deg": 304.2,
+     "vis_km": 21.71,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.61,
+     "wind_ms": 4.54,
+     "wind_dir_deg": 316.2,
+     "vis_km": 21.74,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.48,
+     "wind_ms": 4.47,
+     "wind_dir_deg": 328.2,
+     "vis_km": 21.8,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.4,
+     "wind_ms": 4.36,
+     "wind_dir_deg": 340.2,
+     "vis_km": 21.83,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 0.44,
+     "wind_ms": 4.24,
+     "wind_dir_deg": 352.2,
+     "vis_km": 21.82,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 0.56,
+     "wind_ms": 4.09,
+     "wind_dir_deg": 4.2,
+     "vis_km": 21.77,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 0.67,
+     "wind_ms": 3.93,
+     "wind_dir_deg": 16.2,
+     "vis_km": 21.72,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 0.69,
+     "wind_ms": 3.73,
+     "wind_dir_deg": 28.2,
+     "vis_km": 21.71,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 0.61,
+     "wind_ms": 3.52,
+     "wind_dir_deg": 40.2,
+     "vis_km": 21.74,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 0.48,
+     "wind_ms": 3.3,
+     "wind_dir_deg": 52.2,
+     "vis_km": 21.8,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 0.4,
+     "wind_ms": 3.09,
+     "wind_dir_deg": 64.2,
+     "vis_km": 21.83,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 0.44,
+     "wind_ms": 2.9,
+     "wind_dir_deg": 76.2,
+     "vis_km": 21.82,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.56,
+     "wind_ms": 2.75,
+     "wind_dir_deg": 88.2,
+     "vis_km": 21.77,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.67,
+     "wind_ms": 2.61,
+     "wind_dir_deg": 100.2,
+     "vis_km": 21.72,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.69,
+     "wind_ms": 2.5,
+     "wind_dir_deg": 112.2,
+     "vis_km": 21.71,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.61,
+     "wind_ms": 2.41,
+     "wind_dir_deg": 124.2,
+     "vis_km": 21.75,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.48,
+     "wind_ms": 2.36,
+     "wind_dir_deg": 136.2,
+     "vis_km": 21.8,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.4,
+     "wind_ms": 2.35,
+     "wind_dir_deg": 148.2,
+     "vis_km": 21.83,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 125.0,
+   "bd": [
+    108.792599,
+    33.536943
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.51,
+     "wind_ms": 4.05,
+     "wind_dir_deg": 238.7,
+     "vis_km": 21.78,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.41,
+     "wind_ms": 4.2,
+     "wind_dir_deg": 250.7,
+     "vis_km": 21.83,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.42,
+     "wind_ms": 4.34,
+     "wind_dir_deg": 262.7,
+     "vis_km": 21.83,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.52,
+     "wind_ms": 4.45,
+     "wind_dir_deg": 274.7,
+     "vis_km": 21.78,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.65,
+     "wind_ms": 4.54,
+     "wind_dir_deg": 286.7,
+     "vis_km": 21.73,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.7,
+     "wind_ms": 4.58,
+     "wind_dir_deg": 298.7,
+     "vis_km": 21.71,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.64,
+     "wind_ms": 4.56,
+     "wind_dir_deg": 310.7,
+     "vis_km": 21.73,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.51,
+     "wind_ms": 4.5,
+     "wind_dir_deg": 322.7,
+     "vis_km": 21.78,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.41,
+     "wind_ms": 4.41,
+     "wind_dir_deg": 334.7,
+     "vis_km": 21.83,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.42,
+     "wind_ms": 4.29,
+     "wind_dir_deg": 346.7,
+     "vis_km": 21.82,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 0.52,
+     "wind_ms": 4.15,
+     "wind_dir_deg": 358.7,
+     "vis_km": 21.78,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 0.65,
+     "wind_ms": 4.0,
+     "wind_dir_deg": 10.7,
+     "vis_km": 21.73,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 0.7,
+     "wind_ms": 3.81,
+     "wind_dir_deg": 22.7,
+     "vis_km": 21.71,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 0.64,
+     "wind_ms": 3.6,
+     "wind_dir_deg": 34.7,
+     "vis_km": 21.73,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 0.51,
+     "wind_ms": 3.38,
+     "wind_dir_deg": 46.7,
+     "vis_km": 21.79,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 0.41,
+     "wind_ms": 3.17,
+     "wind_dir_deg": 58.7,
+     "vis_km": 21.83,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 0.42,
+     "wind_ms": 2.97,
+     "wind_dir_deg": 70.7,
+     "vis_km": 21.82,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 0.52,
+     "wind_ms": 2.81,
+     "wind_dir_deg": 82.7,
+     "vis_km": 21.78,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.65,
+     "wind_ms": 2.67,
+     "wind_dir_deg": 94.7,
+     "vis_km": 21.73,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.7,
+     "wind_ms": 2.54,
+     "wind_dir_deg": 106.7,
+     "vis_km": 21.71,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.64,
+     "wind_ms": 2.44,
+     "wind_dir_deg": 118.7,
+     "vis_km": 21.73,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.51,
+     "wind_ms": 2.37,
+     "wind_dir_deg": 130.7,
+     "vis_km": 21.79,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.41,
+     "wind_ms": 2.35,
+     "wind_dir_deg": 142.7,
+     "vis_km": 21.83,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.42,
+     "wind_ms": 2.37,
+     "wind_dir_deg": 154.7,
+     "vis_km": 21.82,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 150.0,
+   "bd": [
+    108.565593,
+    33.415619
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.43,
+     "wind_ms": 4.14,
+     "wind_dir_deg": 244.3,
+     "vis_km": 21.82,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.4,
+     "wind_ms": 4.29,
+     "wind_dir_deg": 256.3,
+     "vis_km": 21.83,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.49,
+     "wind_ms": 4.41,
+     "wind_dir_deg": 268.3,
+     "vis_km": 21.8,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.62,
+     "wind_ms": 4.51,
+     "wind_dir_deg": 280.3,
+     "vis_km": 21.74,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.7,
+     "wind_ms": 4.57,
+     "wind_dir_deg": 292.3,
+     "vis_km": 21.71,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.66,
+     "wind_ms": 4.57,
+     "wind_dir_deg": 304.3,
+     "vis_km": 21.72,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.55,
+     "wind_ms": 4.53,
+     "wind_dir_deg": 316.3,
+     "vis_km": 21.77,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.43,
+     "wind_ms": 4.45,
+     "wind_dir_deg": 328.3,
+     "vis_km": 21.82,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.4,
+     "wind_ms": 4.34,
+     "wind_dir_deg": 340.3,
+     "vis_km": 21.83,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.49,
+     "wind_ms": 4.21,
+     "wind_dir_deg": 352.3,
+     "vis_km": 21.79,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 0.62,
+     "wind_ms": 4.06,
+     "wind_dir_deg": 4.3,
+     "vis_km": 21.74,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 0.7,
+     "wind_ms": 3.89,
+     "wind_dir_deg": 16.3,
+     "vis_km": 21.71,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 0.66,
+     "wind_ms": 3.69,
+     "wind_dir_deg": 28.3,
+     "vis_km": 21.72,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 0.54,
+     "wind_ms": 3.47,
+     "wind_dir_deg": 40.3,
+     "vis_km": 21.77,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 0.43,
+     "wind_ms": 3.25,
+     "wind_dir_deg": 52.3,
+     "vis_km": 21.82,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 0.41,
+     "wind_ms": 3.05,
+     "wind_dir_deg": 64.3,
+     "vis_km": 21.83,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 0.49,
+     "wind_ms": 2.87,
+     "wind_dir_deg": 76.3,
+     "vis_km": 21.79,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 0.62,
+     "wind_ms": 2.72,
+     "wind_dir_deg": 88.3,
+     "vis_km": 21.74,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.7,
+     "wind_ms": 2.59,
+     "wind_dir_deg": 100.3,
+     "vis_km": 21.71,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.66,
+     "wind_ms": 2.48,
+     "wind_dir_deg": 112.3,
+     "vis_km": 21.72,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.54,
+     "wind_ms": 2.4,
+     "wind_dir_deg": 124.3,
+     "vis_km": 21.77,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.43,
+     "wind_ms": 2.35,
+     "wind_dir_deg": 136.3,
+     "vis_km": 21.82,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.41,
+     "wind_ms": 2.35,
+     "wind_dir_deg": 148.3,
+     "vis_km": 21.83,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.49,
+     "wind_ms": 2.41,
+     "wind_dir_deg": 160.3,
+     "vis_km": 21.79,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 175.0,
+   "bd": [
+    108.321767,
+    33.321495
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.4,
+     "wind_ms": 4.23,
+     "wind_dir_deg": 248.9,
+     "vis_km": 21.83,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.46,
+     "wind_ms": 4.37,
+     "wind_dir_deg": 260.9,
+     "vis_km": 21.81,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.59,
+     "wind_ms": 4.48,
+     "wind_dir_deg": 272.9,
+     "vis_km": 21.75,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.69,
+     "wind_ms": 4.55,
+     "wind_dir_deg": 284.9,
+     "vis_km": 21.71,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.68,
+     "wind_ms": 4.57,
+     "wind_dir_deg": 296.9,
+     "vis_km": 21.71,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.58,
+     "wind_ms": 4.55,
+     "wind_dir_deg": 308.9,
+     "vis_km": 21.76,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.45,
+     "wind_ms": 4.48,
+     "wind_dir_deg": 320.9,
+     "vis_km": 21.81,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.4,
+     "wind_ms": 4.38,
+     "wind_dir_deg": 332.9,
+     "vis_km": 21.83,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.46,
+     "wind_ms": 4.27,
+     "wind_dir_deg": 344.9,
+     "vis_km": 21.81,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.59,
+     "wind_ms": 4.13,
+     "wind_dir_deg": 356.9,
+     "vis_km": 21.75,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 0.69,
+     "wind_ms": 3.96,
+     "wind_dir_deg": 8.9,
+     "vis_km": 21.71,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 0.68,
+     "wind_ms": 3.77,
+     "wind_dir_deg": 20.9,
+     "vis_km": 21.71,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 0.58,
+     "wind_ms": 3.55,
+     "wind_dir_deg": 32.9,
+     "vis_km": 21.76,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 0.45,
+     "wind_ms": 3.33,
+     "wind_dir_deg": 44.9,
+     "vis_km": 21.81,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 0.4,
+     "wind_ms": 3.12,
+     "wind_dir_deg": 56.9,
+     "vis_km": 21.83,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 0.46,
+     "wind_ms": 2.94,
+     "wind_dir_deg": 68.9,
+     "vis_km": 21.81,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 0.59,
+     "wind_ms": 2.78,
+     "wind_dir_deg": 80.9,
+     "vis_km": 21.75,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 0.69,
+     "wind_ms": 2.64,
+     "wind_dir_deg": 92.9,
+     "vis_km": 21.71,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.68,
+     "wind_ms": 2.52,
+     "wind_dir_deg": 104.9,
+     "vis_km": 21.71,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.57,
+     "wind_ms": 2.42,
+     "wind_dir_deg": 116.9,
+     "vis_km": 21.76,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.45,
+     "wind_ms": 2.36,
+     "wind_dir_deg": 128.9,
+     "vis_km": 21.81,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.4,
+     "wind_ms": 2.35,
+     "wind_dir_deg": 140.9,
+     "vis_km": 21.83,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.46,
+     "wind_ms": 2.38,
+     "wind_dir_deg": 152.9,
+     "vis_km": 21.8,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.59,
+     "wind_ms": 2.46,
+     "wind_dir_deg": 164.9,
+     "vis_km": 21.75,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 200.0,
+   "bd": [
+    108.05948,
+    33.274313
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.43,
+     "wind_ms": 4.32,
+     "wind_dir_deg": 252.2,
+     "vis_km": 21.82,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.55,
+     "wind_ms": 4.44,
+     "wind_dir_deg": 264.2,
+     "vis_km": 21.77,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.67,
+     "wind_ms": 4.53,
+     "wind_dir_deg": 276.2,
+     "vis_km": 21.72,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.7,
+     "wind_ms": 4.57,
+     "wind_dir_deg": 288.2,
+     "vis_km": 21.71,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.61,
+     "wind_ms": 4.56,
+     "wind_dir_deg": 300.2,
+     "vis_km": 21.74,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.48,
+     "wind_ms": 4.51,
+     "wind_dir_deg": 312.2,
+     "vis_km": 21.8,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.4,
+     "wind_ms": 4.42,
+     "wind_dir_deg": 324.2,
+     "vis_km": 21.83,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.44,
+     "wind_ms": 4.32,
+     "wind_dir_deg": 336.2,
+     "vis_km": 21.82,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.56,
+     "wind_ms": 4.19,
+     "wind_dir_deg": 348.2,
+     "vis_km": 21.77,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.67,
+     "wind_ms": 4.03,
+     "wind_dir_deg": 0.2,
+     "vis_km": 21.72,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 0.69,
+     "wind_ms": 3.85,
+     "wind_dir_deg": 12.2,
+     "vis_km": 21.71,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 0.61,
+     "wind_ms": 3.64,
+     "wind_dir_deg": 24.2,
+     "vis_km": 21.74,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 0.48,
+     "wind_ms": 3.42,
+     "wind_dir_deg": 36.2,
+     "vis_km": 21.8,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 0.4,
+     "wind_ms": 3.2,
+     "wind_dir_deg": 48.2,
+     "vis_km": 21.83,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 0.44,
+     "wind_ms": 3.01,
+     "wind_dir_deg": 60.2,
+     "vis_km": 21.82,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 0.56,
+     "wind_ms": 2.84,
+     "wind_dir_deg": 72.2,
+     "vis_km": 21.77,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 0.67,
+     "wind_ms": 2.7,
+     "wind_dir_deg": 84.2,
+     "vis_km": 21.72,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 0.69,
+     "wind_ms": 2.57,
+     "wind_dir_deg": 96.2,
+     "vis_km": 21.71,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.61,
+     "wind_ms": 2.46,
+     "wind_dir_deg": 108.2,
+     "vis_km": 21.75,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.48,
+     "wind_ms": 2.38,
+     "wind_dir_deg": 120.2,
+     "vis_km": 21.8,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.4,
+     "wind_ms": 2.34,
+     "wind_dir_deg": 132.2,
+     "vis_km": 21.83,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.44,
+     "wind_ms": 2.36,
+     "wind_dir_deg": 144.2,
+     "vis_km": 21.82,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.56,
+     "wind_ms": 2.43,
+     "wind_dir_deg": 156.2,
+     "vis_km": 21.76,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.67,
+     "wind_ms": 2.53,
+     "wind_dir_deg": 168.2,
+     "vis_km": 21.72,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 225.0,
+   "bd": [
+    107.791745,
+    33.251999
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.52,
+     "wind_ms": 4.4,
+     "wind_dir_deg": 254.3,
+     "vis_km": 21.78,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.65,
+     "wind_ms": 4.5,
+     "wind_dir_deg": 266.3,
+     "vis_km": 21.73,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.7,
+     "wind_ms": 4.56,
+     "wind_dir_deg": 278.3,
+     "vis_km": 21.71,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.64,
+     "wind_ms": 4.57,
+     "wind_dir_deg": 290.3,
+     "vis_km": 21.73,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.51,
+     "wind_ms": 4.53,
+     "wind_dir_deg": 302.3,
+     "vis_km": 21.78,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.41,
+     "wind_ms": 4.46,
+     "wind_dir_deg": 314.3,
+     "vis_km": 21.83,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.42,
+     "wind_ms": 4.36,
+     "wind_dir_deg": 326.3,
+     "vis_km": 21.82,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.52,
+     "wind_ms": 4.25,
+     "wind_dir_deg": 338.3,
+     "vis_km": 21.78,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.65,
+     "wind_ms": 4.1,
+     "wind_dir_deg": 350.3,
+     "vis_km": 21.73,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.7,
+     "wind_ms": 3.93,
+     "wind_dir_deg": 2.3,
+     "vis_km": 21.71,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 0.64,
+     "wind_ms": 3.72,
+     "wind_dir_deg": 14.3,
+     "vis_km": 21.73,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 0.51,
+     "wind_ms": 3.5,
+     "wind_dir_deg": 26.3,
+     "vis_km": 21.79,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 0.41,
+     "wind_ms": 3.29,
+     "wind_dir_deg": 38.3,
+     "vis_km": 21.83,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 0.42,
+     "wind_ms": 3.09,
+     "wind_dir_deg": 50.3,
+     "vis_km": 21.82,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 0.52,
+     "wind_ms": 2.91,
+     "wind_dir_deg": 62.3,
+     "vis_km": 21.78,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 0.65,
+     "wind_ms": 2.75,
+     "wind_dir_deg": 74.3,
+     "vis_km": 21.73,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 0.7,
+     "wind_ms": 2.62,
+     "wind_dir_deg": 86.3,
+     "vis_km": 21.71,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 0.64,
+     "wind_ms": 2.5,
+     "wind_dir_deg": 98.3,
+     "vis_km": 21.73,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.51,
+     "wind_ms": 2.4,
+     "wind_dir_deg": 110.3,
+     "vis_km": 21.79,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.41,
+     "wind_ms": 2.35,
+     "wind_dir_deg": 122.3,
+     "vis_km": 21.83,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.42,
+     "wind_ms": 2.35,
+     "wind_dir_deg": 134.3,
+     "vis_km": 21.82,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.53,
+     "wind_ms": 2.4,
+     "wind_dir_deg": 146.3,
+     "vis_km": 21.78,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.65,
+     "wind_ms": 2.49,
+     "wind_dir_deg": 158.3,
+     "vis_km": 21.73,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.7,
+     "wind_ms": 2.6,
+     "wind_dir_deg": 170.3,
+     "vis_km": 21.71,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 250.0,
+   "bd": [
+    107.526476,
+    33.216996
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.62,
+     "wind_ms": 4.47,
+     "wind_dir_deg": 255.0,
+     "vis_km": 21.74,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.7,
+     "wind_ms": 4.54,
+     "wind_dir_deg": 267.0,
+     "vis_km": 21.71,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.66,
+     "wind_ms": 4.57,
+     "wind_dir_deg": 279.0,
+     "vis_km": 21.72,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.55,
+     "wind_ms": 4.55,
+     "wind_dir_deg": 291.0,
+     "vis_km": 21.77,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.43,
+     "wind_ms": 4.49,
+     "wind_dir_deg": 303.0,
+     "vis_km": 21.82,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.41,
+     "wind_ms": 4.41,
+     "wind_dir_deg": 315.0,
+     "vis_km": 21.83,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.49,
+     "wind_ms": 4.3,
+     "wind_dir_deg": 327.0,
+     "vis_km": 21.79,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.62,
+     "wind_ms": 4.16,
+     "wind_dir_deg": 339.0,
+     "vis_km": 21.74,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.7,
+     "wind_ms": 4.0,
+     "wind_dir_deg": 351.0,
+     "vis_km": 21.71,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.66,
+     "wind_ms": 3.81,
+     "wind_dir_deg": 3.0,
+     "vis_km": 21.72,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 0.54,
+     "wind_ms": 3.59,
+     "wind_dir_deg": 15.0,
+     "vis_km": 21.77,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 0.43,
+     "wind_ms": 3.37,
+     "wind_dir_deg": 27.0,
+     "vis_km": 21.82,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 0.41,
+     "wind_ms": 3.16,
+     "wind_dir_deg": 39.0,
+     "vis_km": 21.83,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 0.49,
+     "wind_ms": 2.98,
+     "wind_dir_deg": 51.0,
+     "vis_km": 21.79,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 0.62,
+     "wind_ms": 2.81,
+     "wind_dir_deg": 63.0,
+     "vis_km": 21.74,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 0.7,
+     "wind_ms": 2.67,
+     "wind_dir_deg": 75.0,
+     "vis_km": 21.71,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 0.66,
+     "wind_ms": 2.54,
+     "wind_dir_deg": 87.0,
+     "vis_km": 21.72,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 0.54,
+     "wind_ms": 2.43,
+     "wind_dir_deg": 99.0,
+     "vis_km": 21.77,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.43,
+     "wind_ms": 2.36,
+     "wind_dir_deg": 111.0,
+     "vis_km": 21.82,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.41,
+     "wind_ms": 2.34,
+     "wind_dir_deg": 123.0,
+     "vis_km": 21.83,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.49,
+     "wind_ms": 2.38,
+     "wind_dir_deg": 135.0,
+     "vis_km": 21.79,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.63,
+     "wind_ms": 2.45,
+     "wind_dir_deg": 147.0,
+     "vis_km": 21.74,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.7,
+     "wind_ms": 2.55,
+     "wind_dir_deg": 159.0,
+     "vis_km": 21.71,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.66,
+     "wind_ms": 2.68,
+     "wind_dir_deg": 171.0,
+     "vis_km": 21.72,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 275.0,
+   "bd": [
+    107.27524,
+    33.138057
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.69,
+     "wind_ms": 4.52,
+     "wind_dir_deg": 254.4,
+     "vis_km": 21.71,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.68,
+     "wind_ms": 4.57,
+     "wind_dir_deg": 266.4,
+     "vis_km": 21.71,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.58,
+     "wind_ms": 4.56,
+     "wind_dir_deg": 278.4,
+     "vis_km": 21.76,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.45,
+     "wind_ms": 4.52,
+     "wind_dir_deg": 290.4,
+     "vis_km": 21.81,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.4,
+     "wind_ms": 4.44,
+     "wind_dir_deg": 302.4,
+     "vis_km": 21.83,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.46,
+     "wind_ms": 4.34,
+     "wind_dir_deg": 314.4,
+     "vis_km": 21.81,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.59,
+     "wind_ms": 4.22,
+     "wind_dir_deg": 326.4,
+     "vis_km": 21.75,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.69,
+     "wind_ms": 4.07,
+     "wind_dir_deg": 338.4,
+     "vis_km": 21.71,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.68,
+     "wind_ms": 3.89,
+     "wind_dir_deg": 350.4,
+     "vis_km": 21.71,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.58,
+     "wind_ms": 3.67,
+     "wind_dir_deg": 2.4,
+     "vis_km": 21.76,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 0.45,
+     "wind_ms": 3.45,
+     "wind_dir_deg": 14.4,
+     "vis_km": 21.81,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 0.4,
+     "wind_ms": 3.24,
+     "wind_dir_deg": 26.4,
+     "vis_km": 21.83,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 0.46,
+     "wind_ms": 3.05,
+     "wind_dir_deg": 38.4,
+     "vis_km": 21.81,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 0.59,
+     "wind_ms": 2.88,
+     "wind_dir_deg": 50.4,
+     "vis_km": 21.75,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 0.69,
+     "wind_ms": 2.73,
+     "wind_dir_deg": 62.4,
+     "vis_km": 21.71,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 0.68,
+     "wind_ms": 2.59,
+     "wind_dir_deg": 74.4,
+     "vis_km": 21.71,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 0.57,
+     "wind_ms": 2.47,
+     "wind_dir_deg": 86.4,
+     "vis_km": 21.76,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 0.45,
+     "wind_ms": 2.38,
+     "wind_dir_deg": 98.4,
+     "vis_km": 21.81,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.4,
+     "wind_ms": 2.35,
+     "wind_dir_deg": 110.4,
+     "vis_km": 21.83,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.47,
+     "wind_ms": 2.36,
+     "wind_dir_deg": 122.4,
+     "vis_km": 21.8,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.59,
+     "wind_ms": 2.42,
+     "wind_dir_deg": 134.4,
+     "vis_km": 21.75,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.69,
+     "wind_ms": 2.51,
+     "wind_dir_deg": 146.4,
+     "vis_km": 21.71,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.68,
+     "wind_ms": 2.63,
+     "wind_dir_deg": 158.4,
+     "vis_km": 21.71,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.57,
+     "wind_ms": 2.76,
+     "wind_dir_deg": 170.4,
+     "vis_km": 21.76,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 300.0,
+   "bd": [
+    107.019792,
+    33.073834
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.7,
+     "wind_ms": 4.55,
+     "wind_dir_deg": 252.5,
+     "vis_km": 21.71,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.61,
+     "wind_ms": 4.57,
+     "wind_dir_deg": 264.5,
+     "vis_km": 21.74,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.48,
+     "wind_ms": 4.54,
+     "wind_dir_deg": 276.5,
+     "vis_km": 21.8,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.4,
+     "wind_ms": 4.47,
+     "wind_dir_deg": 288.5,
+     "vis_km": 21.83,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.44,
+     "wind_ms": 4.39,
+     "wind_dir_deg": 300.5,
+     "vis_km": 21.82,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.56,
+     "wind_ms": 4.28,
+     "wind_dir_deg": 312.5,
+     "vis_km": 21.77,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.67,
+     "wind_ms": 4.14,
+     "wind_dir_deg": 324.5,
+     "vis_km": 21.72,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.69,
+     "wind_ms": 3.96,
+     "wind_dir_deg": 336.5,
+     "vis_km": 21.71,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.61,
+     "wind_ms": 3.76,
+     "wind_dir_deg": 348.5,
+     "vis_km": 21.74,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.48,
+     "wind_ms": 3.54,
+     "wind_dir_deg": 0.5,
+     "vis_km": 21.8,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 0.4,
+     "wind_ms": 3.32,
+     "wind_dir_deg": 12.5,
+     "vis_km": 21.83,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 0.44,
+     "wind_ms": 3.13,
+     "wind_dir_deg": 24.5,
+     "vis_km": 21.82,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 0.56,
+     "wind_ms": 2.95,
+     "wind_dir_deg": 36.5,
+     "vis_km": 21.76,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 0.68,
+     "wind_ms": 2.79,
+     "wind_dir_deg": 48.5,
+     "vis_km": 21.72,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 0.7,
+     "wind_ms": 2.64,
+     "wind_dir_deg": 60.5,
+     "vis_km": 21.71,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 0.61,
+     "wind_ms": 2.51,
+     "wind_dir_deg": 72.5,
+     "vis_km": 21.74,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 0.48,
+     "wind_ms": 2.41,
+     "wind_dir_deg": 84.5,
+     "vis_km": 21.8,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 0.4,
+     "wind_ms": 2.36,
+     "wind_dir_deg": 96.5,
+     "vis_km": 21.83,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.44,
+     "wind_ms": 2.35,
+     "wind_dir_deg": 108.5,
+     "vis_km": 21.82,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.56,
+     "wind_ms": 2.39,
+     "wind_dir_deg": 120.5,
+     "vis_km": 21.76,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.67,
+     "wind_ms": 2.47,
+     "wind_dir_deg": 132.5,
+     "vis_km": 21.72,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.69,
+     "wind_ms": 2.58,
+     "wind_dir_deg": 144.5,
+     "vis_km": 21.71,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.6,
+     "wind_ms": 2.7,
+     "wind_dir_deg": 156.5,
+     "vis_km": 21.75,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.47,
+     "wind_ms": 2.85,
+     "wind_dir_deg": 168.5,
+     "vis_km": 21.8,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 325.0,
+   "bd": [
+    106.772681,
+    33.155912
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.64,
+     "wind_ms": 4.57,
+     "wind_dir_deg": 249.3,
+     "vis_km": 21.73,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.51,
+     "wind_ms": 4.55,
+     "wind_dir_deg": 261.3,
+     "vis_km": 21.79,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.41,
+     "wind_ms": 4.5,
+     "wind_dir_deg": 273.3,
+     "vis_km": 21.83,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.42,
+     "wind_ms": 4.43,
+     "wind_dir_deg": 285.3,
+     "vis_km": 21.82,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.52,
+     "wind_ms": 4.33,
+     "wind_dir_deg": 297.3,
+     "vis_km": 21.78,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.65,
+     "wind_ms": 4.2,
+     "wind_dir_deg": 309.3,
+     "vis_km": 21.73,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.7,
+     "wind_ms": 4.04,
+     "wind_dir_deg": 321.3,
+     "vis_km": 21.71,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.64,
+     "wind_ms": 3.84,
+     "wind_dir_deg": 333.3,
+     "vis_km": 21.73,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.51,
+     "wind_ms": 3.63,
+     "wind_dir_deg": 345.3,
+     "vis_km": 21.79,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.42,
+     "wind_ms": 3.41,
+     "wind_dir_deg": 357.3,
+     "vis_km": 21.83,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 0.43,
+     "wind_ms": 3.2,
+     "wind_dir_deg": 9.3,
+     "vis_km": 21.82,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 0.56,
+     "wind_ms": 3.02,
+     "wind_dir_deg": 21.3,
+     "vis_km": 21.76,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 0.72,
+     "wind_ms": 2.86,
+     "wind_dir_deg": 33.3,
+     "vis_km": 21.7,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 0.79,
+     "wind_ms": 2.71,
+     "wind_dir_deg": 45.3,
+     "vis_km": 21.67,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 0.73,
+     "wind_ms": 2.57,
+     "wind_dir_deg": 57.3,
+     "vis_km": 21.7,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 0.57,
+     "wind_ms": 2.45,
+     "wind_dir_deg": 69.3,
+     "vis_km": 21.76,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 0.45,
+     "wind_ms": 2.37,
+     "wind_dir_deg": 81.3,
+     "vis_km": 21.81,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 0.43,
+     "wind_ms": 2.35,
+     "wind_dir_deg": 93.3,
+     "vis_km": 21.82,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.53,
+     "wind_ms": 2.37,
+     "wind_dir_deg": 105.3,
+     "vis_km": 21.78,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.65,
+     "wind_ms": 2.44,
+     "wind_dir_deg": 117.3,
+     "vis_km": 21.73,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.7,
+     "wind_ms": 2.53,
+     "wind_dir_deg": 129.3,
+     "vis_km": 21.71,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.63,
+     "wind_ms": 2.65,
+     "wind_dir_deg": 141.3,
+     "vis_km": 21.73,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.5,
+     "wind_ms": 2.79,
+     "wind_dir_deg": 153.3,
+     "vis_km": 21.79,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.41,
+     "wind_ms": 2.95,
+     "wind_dir_deg": 165.3,
+     "vis_km": 21.83,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 350.0,
+   "bd": [
+    106.540514,
+    33.067814
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.54,
+     "wind_ms": 4.56,
+     "wind_dir_deg": 244.9,
+     "vis_km": 21.77,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.43,
+     "wind_ms": 4.52,
+     "wind_dir_deg": 256.9,
+     "vis_km": 21.82,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.41,
+     "wind_ms": 4.46,
+     "wind_dir_deg": 268.9,
+     "vis_km": 21.83,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.49,
+     "wind_ms": 4.37,
+     "wind_dir_deg": 280.9,
+     "vis_km": 21.79,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.62,
+     "wind_ms": 4.25,
+     "wind_dir_deg": 292.9,
+     "vis_km": 21.74,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.7,
+     "wind_ms": 4.1,
+     "wind_dir_deg": 304.9,
+     "vis_km": 21.71,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.66,
+     "wind_ms": 3.92,
+     "wind_dir_deg": 316.9,
+     "vis_km": 21.72,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.54,
+     "wind_ms": 3.71,
+     "wind_dir_deg": 328.9,
+     "vis_km": 21.77,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.44,
+     "wind_ms": 3.49,
+     "wind_dir_deg": 340.9,
+     "vis_km": 21.82,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.45,
+     "wind_ms": 3.29,
+     "wind_dir_deg": 352.9,
+     "vis_km": 21.81,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 0.63,
+     "wind_ms": 3.11,
+     "wind_dir_deg": 4.9,
+     "vis_km": 21.73,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 0.98,
+     "wind_ms": 2.96,
+     "wind_dir_deg": 16.9,
+     "vis_km": 21.59,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 1.35,
+     "wind_ms": 2.83,
+     "wind_dir_deg": 28.9,
+     "vis_km": 21.43,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 1.55,
+     "wind_ms": 2.71,
+     "wind_dir_deg": 40.9,
+     "vis_km": 21.35,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 1.43,
+     "wind_ms": 2.58,
+     "wind_dir_deg": 52.9,
+     "vis_km": 21.4,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 1.08,
+     "wind_ms": 2.47,
+     "wind_dir_deg": 64.9,
+     "vis_km": 21.55,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 0.76,
+     "wind_ms": 2.39,
+     "wind_dir_deg": 76.9,
+     "vis_km": 21.68,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 0.64,
+     "wind_ms": 2.37,
+     "wind_dir_deg": 88.9,
+     "vis_km": 21.73,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.67,
+     "wind_ms": 2.41,
+     "wind_dir_deg": 100.9,
+     "vis_km": 21.72,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.71,
+     "wind_ms": 2.49,
+     "wind_dir_deg": 112.9,
+     "vis_km": 21.7,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.66,
+     "wind_ms": 2.6,
+     "wind_dir_deg": 124.9,
+     "vis_km": 21.72,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.54,
+     "wind_ms": 2.73,
+     "wind_dir_deg": 136.9,
+     "vis_km": 21.77,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.43,
+     "wind_ms": 2.88,
+     "wind_dir_deg": 148.9,
+     "vis_km": 21.82,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.41,
+     "wind_ms": 3.06,
+     "wind_dir_deg": 160.9,
+     "vis_km": 21.83,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 375.0,
+   "bd": [
+    106.358295,
+    32.903151
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.45,
+     "wind_ms": 4.54,
+     "wind_dir_deg": 239.4,
+     "vis_km": 21.81,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.4,
+     "wind_ms": 4.49,
+     "wind_dir_deg": 251.4,
+     "vis_km": 21.83,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.46,
+     "wind_ms": 4.41,
+     "wind_dir_deg": 263.4,
+     "vis_km": 21.81,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.59,
+     "wind_ms": 4.31,
+     "wind_dir_deg": 275.4,
+     "vis_km": 21.75,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.69,
+     "wind_ms": 4.17,
+     "wind_dir_deg": 287.4,
+     "vis_km": 21.71,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.68,
+     "wind_ms": 4.0,
+     "wind_dir_deg": 299.4,
+     "vis_km": 21.71,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.58,
+     "wind_ms": 3.79,
+     "wind_dir_deg": 311.4,
+     "vis_km": 21.76,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.46,
+     "wind_ms": 3.58,
+     "wind_dir_deg": 323.4,
+     "vis_km": 21.81,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.45,
+     "wind_ms": 3.37,
+     "wind_dir_deg": 335.4,
+     "vis_km": 21.81,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.71,
+     "wind_ms": 3.19,
+     "wind_dir_deg": 347.4,
+     "vis_km": 21.7,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 1.43,
+     "wind_ms": 3.08,
+     "wind_dir_deg": 359.4,
+     "vis_km": 21.4,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 2.8,
+     "wind_ms": 3.05,
+     "wind_dir_deg": 11.4,
+     "vis_km": 20.82,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 4.59,
+     "wind_ms": 3.1,
+     "wind_dir_deg": 23.4,
+     "vis_km": 20.07,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 5.9,
+     "wind_ms": 3.11,
+     "wind_dir_deg": 35.4,
+     "vis_km": 19.52,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 5.78,
+     "wind_ms": 3.01,
+     "wind_dir_deg": 47.4,
+     "vis_km": 19.57,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 4.31,
+     "wind_ms": 2.79,
+     "wind_dir_deg": 59.4,
+     "vis_km": 20.19,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 2.58,
+     "wind_ms": 2.58,
+     "wind_dir_deg": 71.4,
+     "vis_km": 20.92,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 1.43,
+     "wind_ms": 2.48,
+     "wind_dir_deg": 83.4,
+     "vis_km": 21.4,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.93,
+     "wind_ms": 2.48,
+     "wind_dir_deg": 95.4,
+     "vis_km": 21.61,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.73,
+     "wind_ms": 2.56,
+     "wind_dir_deg": 107.4,
+     "vis_km": 21.69,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.58,
+     "wind_ms": 2.67,
+     "wind_dir_deg": 119.4,
+     "vis_km": 21.76,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.45,
+     "wind_ms": 2.81,
+     "wind_dir_deg": 131.4,
+     "vis_km": 21.81,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.4,
+     "wind_ms": 2.99,
+     "wind_dir_deg": 143.4,
+     "vis_km": 21.83,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.47,
+     "wind_ms": 3.19,
+     "wind_dir_deg": 155.4,
+     "vis_km": 21.8,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 400.0,
+   "bd": [
+    106.147282,
+    32.766411
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.4,
+     "wind_ms": 4.51,
+     "wind_dir_deg": 232.9,
+     "vis_km": 21.83,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.44,
+     "wind_ms": 4.45,
+     "wind_dir_deg": 244.9,
+     "vis_km": 21.82,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.56,
+     "wind_ms": 4.35,
+     "wind_dir_deg": 256.9,
+     "vis_km": 21.77,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.67,
+     "wind_ms": 4.23,
+     "wind_dir_deg": 268.9,
+     "vis_km": 21.72,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.69,
+     "wind_ms": 4.07,
+     "wind_dir_deg": 280.9,
+     "vis_km": 21.71,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.61,
+     "wind_ms": 3.87,
+     "wind_dir_deg": 292.9,
+     "vis_km": 21.74,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.48,
+     "wind_ms": 3.66,
+     "wind_dir_deg": 304.9,
+     "vis_km": 21.8,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.43,
+     "wind_ms": 3.45,
+     "wind_dir_deg": 316.9,
+     "vis_km": 21.82,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.62,
+     "wind_ms": 3.27,
+     "wind_dir_deg": 328.9,
+     "vis_km": 21.74,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 1.43,
+     "wind_ms": 3.15,
+     "wind_dir_deg": 340.9,
+     "vis_km": 21.4,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 3.67,
+     "wind_ms": 3.22,
+     "wind_dir_deg": 352.9,
+     "vis_km": 20.46,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 8.25,
+     "wind_ms": 3.56,
+     "wind_dir_deg": 4.9,
+     "vis_km": 18.53,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 14.61,
+     "wind_ms": 4.12,
+     "wind_dir_deg": 16.9,
+     "vis_km": 15.21,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 19.55,
+     "wind_ms": 4.56,
+     "wind_dir_deg": 28.9,
+     "vis_km": 11.9,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 19.48,
+     "wind_ms": 4.48,
+     "wind_dir_deg": 40.9,
+     "vis_km": 11.95,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 14.45,
+     "wind_ms": 3.89,
+     "wind_dir_deg": 52.9,
+     "vis_km": 15.32,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 8.12,
+     "wind_ms": 3.2,
+     "wind_dir_deg": 64.9,
+     "vis_km": 18.59,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 3.67,
+     "wind_ms": 2.76,
+     "wind_dir_deg": 76.9,
+     "vis_km": 20.46,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 1.56,
+     "wind_ms": 2.61,
+     "wind_dir_deg": 88.9,
+     "vis_km": 21.34,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.79,
+     "wind_ms": 2.64,
+     "wind_dir_deg": 100.9,
+     "vis_km": 21.67,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.5,
+     "wind_ms": 2.75,
+     "wind_dir_deg": 112.9,
+     "vis_km": 21.79,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.4,
+     "wind_ms": 2.91,
+     "wind_dir_deg": 124.9,
+     "vis_km": 21.83,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.44,
+     "wind_ms": 3.11,
+     "wind_dir_deg": 136.9,
+     "vis_km": 21.81,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.56,
+     "wind_ms": 3.32,
+     "wind_dir_deg": 148.9,
+     "vis_km": 21.76,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 425.0,
+   "bd": [
+    105.918689,
+    32.650342
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.42,
+     "wind_ms": 4.48,
+     "wind_dir_deg": 225.7,
+     "vis_km": 21.82,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.52,
+     "wind_ms": 4.4,
+     "wind_dir_deg": 237.7,
+     "vis_km": 21.78,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.65,
+     "wind_ms": 4.28,
+     "wind_dir_deg": 249.7,
+     "vis_km": 21.73,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.7,
+     "wind_ms": 4.14,
+     "wind_dir_deg": 261.7,
+     "vis_km": 21.71,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.64,
+     "wind_ms": 3.95,
+     "wind_dir_deg": 273.7,
+     "vis_km": 21.73,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.51,
+     "wind_ms": 3.75,
+     "wind_dir_deg": 285.7,
+     "vis_km": 21.79,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.42,
+     "wind_ms": 3.53,
+     "wind_dir_deg": 297.7,
+     "vis_km": 21.82,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.48,
+     "wind_ms": 3.33,
+     "wind_dir_deg": 309.7,
+     "vis_km": 21.8,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.93,
+     "wind_ms": 3.18,
+     "wind_dir_deg": 321.7,
+     "vis_km": 21.61,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 2.52,
+     "wind_ms": 3.16,
+     "wind_dir_deg": 333.7,
+     "vis_km": 20.94,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 7.13,
+     "wind_ms": 3.5,
+     "wind_dir_deg": 345.7,
+     "vis_km": 19.0,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 16.88,
+     "wind_ms": 4.42,
+     "wind_dir_deg": 357.7,
+     "vis_km": 13.69,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 30.62,
+     "wind_ms": 5.81,
+     "wind_dir_deg": 9.7,
+     "vis_km": 4.48,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 41.41,
+     "wind_ms": 6.91,
+     "wind_dir_deg": 21.7,
+     "vis_km": 0.6,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 41.42,
+     "wind_ms": 6.87,
+     "wind_dir_deg": 33.7,
+     "vis_km": 0.6,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 30.64,
+     "wind_ms": 5.67,
+     "wind_dir_deg": 45.7,
+     "vis_km": 4.47,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 16.9,
+     "wind_ms": 4.19,
+     "wind_dir_deg": 57.7,
+     "vis_km": 13.68,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 7.13,
+     "wind_ms": 3.18,
+     "wind_dir_deg": 69.7,
+     "vis_km": 19.0,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 2.51,
+     "wind_ms": 2.78,
+     "wind_dir_deg": 81.7,
+     "vis_km": 20.95,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.9,
+     "wind_ms": 2.74,
+     "wind_dir_deg": 93.7,
+     "vis_km": 21.62,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.47,
+     "wind_ms": 2.85,
+     "wind_dir_deg": 105.7,
+     "vis_km": 21.8,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.43,
+     "wind_ms": 3.03,
+     "wind_dir_deg": 117.7,
+     "vis_km": 21.82,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.53,
+     "wind_ms": 3.24,
+     "wind_dir_deg": 129.7,
+     "vis_km": 21.78,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.65,
+     "wind_ms": 3.46,
+     "wind_dir_deg": 141.7,
+     "vis_km": 21.73,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 450.0,
+   "bd": [
+    105.84817,
+    32.442046
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.49,
+     "wind_ms": 4.43,
+     "wind_dir_deg": 217.8,
+     "vis_km": 21.79,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.62,
+     "wind_ms": 4.34,
+     "wind_dir_deg": 229.8,
+     "vis_km": 21.74,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.7,
+     "wind_ms": 4.2,
+     "wind_dir_deg": 241.8,
+     "vis_km": 21.71,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.66,
+     "wind_ms": 4.03,
+     "wind_dir_deg": 253.8,
+     "vis_km": 21.72,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.54,
+     "wind_ms": 3.83,
+     "wind_dir_deg": 265.8,
+     "vis_km": 21.77,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.43,
+     "wind_ms": 3.61,
+     "wind_dir_deg": 277.8,
+     "vis_km": 21.82,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.42,
+     "wind_ms": 3.41,
+     "wind_dir_deg": 289.8,
+     "vis_km": 21.83,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.57,
+     "wind_ms": 3.22,
+     "wind_dir_deg": 301.8,
+     "vis_km": 21.76,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 1.14,
+     "wind_ms": 3.08,
+     "wind_dir_deg": 313.8,
+     "vis_km": 21.52,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 3.11,
+     "wind_ms": 3.12,
+     "wind_dir_deg": 325.8,
+     "vis_km": 20.69,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 8.97,
+     "wind_ms": 3.6,
+     "wind_dir_deg": 337.8,
+     "vis_km": 18.23,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 21.5,
+     "wind_ms": 4.85,
+     "wind_dir_deg": 349.8,
+     "vis_km": 10.59,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 39.29,
+     "wind_ms": 6.71,
+     "wind_dir_deg": 1.8,
+     "vis_km": 0.6,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 53.33,
+     "wind_ms": 8.19,
+     "wind_dir_deg": 13.8,
+     "vis_km": 0.6,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 53.41,
+     "wind_ms": 8.18,
+     "wind_dir_deg": 25.8,
+     "vis_km": 0.6,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 39.49,
+     "wind_ms": 6.66,
+     "wind_dir_deg": 37.8,
+     "vis_km": 0.6,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 21.66,
+     "wind_ms": 4.75,
+     "wind_dir_deg": 49.8,
+     "vis_km": 10.49,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 8.96,
+     "wind_ms": 3.44,
+     "wind_dir_deg": 61.8,
+     "vis_km": 18.24,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 2.95,
+     "wind_ms": 2.9,
+     "wind_dir_deg": 73.8,
+     "vis_km": 20.76,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.94,
+     "wind_ms": 2.84,
+     "wind_dir_deg": 85.8,
+     "vis_km": 21.6,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.49,
+     "wind_ms": 2.96,
+     "wind_dir_deg": 97.8,
+     "vis_km": 21.79,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.51,
+     "wind_ms": 3.16,
+     "wind_dir_deg": 109.8,
+     "vis_km": 21.79,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.63,
+     "wind_ms": 3.37,
+     "wind_dir_deg": 121.8,
+     "vis_km": 21.74,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.7,
+     "wind_ms": 3.59,
+     "wind_dir_deg": 133.8,
+     "vis_km": 21.71,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 475.0,
+   "bd": [
+    105.632025,
+    32.312103
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.59,
+     "wind_ms": 4.38,
+     "wind_dir_deg": 209.5,
+     "vis_km": 21.75,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.69,
+     "wind_ms": 4.26,
+     "wind_dir_deg": 221.5,
+     "vis_km": 21.71,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.68,
+     "wind_ms": 4.1,
+     "wind_dir_deg": 233.5,
+     "vis_km": 21.71,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.58,
+     "wind_ms": 3.91,
+     "wind_dir_deg": 245.5,
+     "vis_km": 21.76,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.45,
+     "wind_ms": 3.7,
+     "wind_dir_deg": 257.5,
+     "vis_km": 21.81,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.4,
+     "wind_ms": 3.49,
+     "wind_dir_deg": 269.5,
+     "vis_km": 21.83,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.47,
+     "wind_ms": 3.29,
+     "wind_dir_deg": 281.5,
+     "vis_km": 21.8,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.66,
+     "wind_ms": 3.11,
+     "wind_dir_deg": 293.5,
+     "vis_km": 21.72,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 1.09,
+     "wind_ms": 2.97,
+     "wind_dir_deg": 305.5,
+     "vis_km": 21.54,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 2.55,
+     "wind_ms": 2.96,
+     "wind_dir_deg": 317.5,
+     "vis_km": 20.93,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 7.01,
+     "wind_ms": 3.31,
+     "wind_dir_deg": 329.5,
+     "vis_km": 19.06,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 16.69,
+     "wind_ms": 4.26,
+     "wind_dir_deg": 341.5,
+     "vis_km": 13.82,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 30.51,
+     "wind_ms": 5.7,
+     "wind_dir_deg": 353.5,
+     "vis_km": 4.55,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 41.47,
+     "wind_ms": 6.87,
+     "wind_dir_deg": 5.5,
+     "vis_km": 0.6,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 41.6,
+     "wind_ms": 6.88,
+     "wind_dir_deg": 17.5,
+     "vis_km": 0.6,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 30.8,
+     "wind_ms": 5.73,
+     "wind_dir_deg": 29.5,
+     "vis_km": 4.36,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 16.92,
+     "wind_ms": 4.28,
+     "wind_dir_deg": 41.5,
+     "vis_km": 13.66,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 7.01,
+     "wind_ms": 3.3,
+     "wind_dir_deg": 53.5,
+     "vis_km": 19.06,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 2.32,
+     "wind_ms": 2.92,
+     "wind_dir_deg": 65.5,
+     "vis_km": 21.03,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.8,
+     "wind_ms": 2.92,
+     "wind_dir_deg": 77.5,
+     "vis_km": 21.66,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.53,
+     "wind_ms": 3.08,
+     "wind_dir_deg": 89.5,
+     "vis_km": 21.78,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.6,
+     "wind_ms": 3.29,
+     "wind_dir_deg": 101.5,
+     "vis_km": 21.75,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.69,
+     "wind_ms": 3.51,
+     "wind_dir_deg": 113.5,
+     "vis_km": 21.71,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.68,
+     "wind_ms": 3.71,
+     "wind_dir_deg": 125.5,
+     "vis_km": 21.72,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 500.0,
+   "bd": [
+    105.412672,
+    32.185612
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.67,
+     "wind_ms": 4.31,
+     "wind_dir_deg": 200.9,
+     "vis_km": 21.72,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.69,
+     "wind_ms": 4.17,
+     "wind_dir_deg": 212.9,
+     "vis_km": 21.71,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.61,
+     "wind_ms": 3.99,
+     "wind_dir_deg": 224.9,
+     "vis_km": 21.74,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.48,
+     "wind_ms": 3.78,
+     "wind_dir_deg": 236.9,
+     "vis_km": 21.8,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.4,
+     "wind_ms": 3.57,
+     "wind_dir_deg": 248.9,
+     "vis_km": 21.83,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.44,
+     "wind_ms": 3.37,
+     "wind_dir_deg": 260.9,
+     "vis_km": 21.82,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.56,
+     "wind_ms": 3.18,
+     "wind_dir_deg": 272.9,
+     "vis_km": 21.76,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.7,
+     "wind_ms": 3.0,
+     "wind_dir_deg": 284.9,
+     "vis_km": 21.7,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.88,
+     "wind_ms": 2.84,
+     "wind_dir_deg": 296.9,
+     "vis_km": 21.63,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 1.48,
+     "wind_ms": 2.75,
+     "wind_dir_deg": 308.9,
+     "vis_km": 21.38,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 3.47,
+     "wind_ms": 2.85,
+     "wind_dir_deg": 320.9,
+     "vis_km": 20.54,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 7.96,
+     "wind_ms": 3.25,
+     "wind_dir_deg": 332.9,
+     "vis_km": 18.66,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 14.45,
+     "wind_ms": 3.91,
+     "wind_dir_deg": 344.9,
+     "vis_km": 15.32,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 19.64,
+     "wind_ms": 4.46,
+     "wind_dir_deg": 356.9,
+     "vis_km": 11.84,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 19.75,
+     "wind_ms": 4.49,
+     "wind_dir_deg": 8.9,
+     "vis_km": 11.77,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 14.7,
+     "wind_ms": 4.0,
+     "wind_dir_deg": 20.9,
+     "vis_km": 15.15,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 8.16,
+     "wind_ms": 3.38,
+     "wind_dir_deg": 32.9,
+     "vis_km": 18.57,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 3.47,
+     "wind_ms": 2.99,
+     "wind_dir_deg": 44.9,
+     "vis_km": 20.54,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 1.27,
+     "wind_ms": 2.91,
+     "wind_dir_deg": 56.9,
+     "vis_km": 21.47,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.63,
+     "wind_ms": 3.02,
+     "wind_dir_deg": 68.9,
+     "vis_km": 21.74,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.59,
+     "wind_ms": 3.21,
+     "wind_dir_deg": 80.9,
+     "vis_km": 21.75,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.68,
+     "wind_ms": 3.42,
+     "wind_dir_deg": 92.9,
+     "vis_km": 21.71,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.69,
+     "wind_ms": 3.63,
+     "wind_dir_deg": 104.9,
+     "vis_km": 21.71,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.6,
+     "wind_ms": 3.82,
+     "wind_dir_deg": 116.9,
+     "vis_km": 21.75,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 525.0,
+   "bd": [
+    105.191094,
+    32.061185
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.7,
+     "wind_ms": 4.23,
+     "wind_dir_deg": 192.3,
+     "vis_km": 21.71,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.64,
+     "wind_ms": 4.06,
+     "wind_dir_deg": 204.3,
+     "vis_km": 21.73,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.51,
+     "wind_ms": 3.86,
+     "wind_dir_deg": 216.3,
+     "vis_km": 21.79,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.41,
+     "wind_ms": 3.65,
+     "wind_dir_deg": 228.3,
+     "vis_km": 21.83,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.42,
+     "wind_ms": 3.45,
+     "wind_dir_deg": 240.3,
+     "vis_km": 21.82,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.53,
+     "wind_ms": 3.25,
+     "wind_dir_deg": 252.3,
+     "vis_km": 21.78,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.65,
+     "wind_ms": 3.07,
+     "wind_dir_deg": 264.3,
+     "vis_km": 21.73,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.71,
+     "wind_ms": 2.89,
+     "wind_dir_deg": 276.3,
+     "vis_km": 21.7,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.69,
+     "wind_ms": 2.72,
+     "wind_dir_deg": 288.3,
+     "vis_km": 21.71,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.75,
+     "wind_ms": 2.59,
+     "wind_dir_deg": 300.3,
+     "vis_km": 21.69,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 1.25,
+     "wind_ms": 2.54,
+     "wind_dir_deg": 312.3,
+     "vis_km": 21.48,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 2.53,
+     "wind_ms": 2.61,
+     "wind_dir_deg": 324.3,
+     "vis_km": 20.94,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 4.44,
+     "wind_ms": 2.79,
+     "wind_dir_deg": 336.3,
+     "vis_km": 20.13,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 5.98,
+     "wind_ms": 2.97,
+     "wind_dir_deg": 348.3,
+     "vis_km": 19.49,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 6.03,
+     "wind_ms": 3.02,
+     "wind_dir_deg": 0.3,
+     "vis_km": 19.47,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 4.55,
+     "wind_ms": 2.94,
+     "wind_dir_deg": 12.3,
+     "vis_km": 20.09,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 2.61,
+     "wind_ms": 2.84,
+     "wind_dir_deg": 24.3,
+     "vis_km": 20.9,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 1.25,
+     "wind_ms": 2.84,
+     "wind_dir_deg": 36.3,
+     "vis_km": 21.48,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.66,
+     "wind_ms": 2.95,
+     "wind_dir_deg": 48.3,
+     "vis_km": 21.72,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.58,
+     "wind_ms": 3.13,
+     "wind_dir_deg": 60.3,
+     "vis_km": 21.76,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.66,
+     "wind_ms": 3.34,
+     "wind_dir_deg": 72.3,
+     "vis_km": 21.72,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.7,
+     "wind_ms": 3.55,
+     "wind_dir_deg": 84.3,
+     "vis_km": 21.71,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.63,
+     "wind_ms": 3.75,
+     "wind_dir_deg": 96.3,
+     "vis_km": 21.74,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.5,
+     "wind_ms": 3.93,
+     "wind_dir_deg": 108.3,
+     "vis_km": 21.79,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 550.0,
+   "bd": [
+    104.972482,
+    31.933424
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.66,
+     "wind_ms": 4.13,
+     "wind_dir_deg": 184.0,
+     "vis_km": 21.72,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.54,
+     "wind_ms": 3.94,
+     "wind_dir_deg": 196.0,
+     "vis_km": 21.77,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.43,
+     "wind_ms": 3.73,
+     "wind_dir_deg": 208.0,
+     "vis_km": 21.82,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.41,
+     "wind_ms": 3.53,
+     "wind_dir_deg": 220.0,
+     "vis_km": 21.83,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.49,
+     "wind_ms": 3.33,
+     "wind_dir_deg": 232.0,
+     "vis_km": 21.79,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.62,
+     "wind_ms": 3.14,
+     "wind_dir_deg": 244.0,
+     "vis_km": 21.74,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.7,
+     "wind_ms": 2.96,
+     "wind_dir_deg": 256.0,
+     "vis_km": 21.71,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.66,
+     "wind_ms": 2.78,
+     "wind_dir_deg": 268.0,
+     "vis_km": 21.72,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.55,
+     "wind_ms": 2.62,
+     "wind_dir_deg": 280.0,
+     "vis_km": 21.77,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.47,
+     "wind_ms": 2.49,
+     "wind_dir_deg": 292.0,
+     "vis_km": 21.8,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 0.55,
+     "wind_ms": 2.42,
+     "wind_dir_deg": 304.0,
+     "vis_km": 21.77,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 0.85,
+     "wind_ms": 2.4,
+     "wind_dir_deg": 316.0,
+     "vis_km": 21.64,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 1.28,
+     "wind_ms": 2.44,
+     "wind_dir_deg": 328.0,
+     "vis_km": 21.46,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 1.59,
+     "wind_ms": 2.51,
+     "wind_dir_deg": 340.0,
+     "vis_km": 21.33,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 1.55,
+     "wind_ms": 2.57,
+     "wind_dir_deg": 352.0,
+     "vis_km": 21.35,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 1.19,
+     "wind_ms": 2.63,
+     "wind_dir_deg": 4.0,
+     "vis_km": 21.5,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 0.78,
+     "wind_ms": 2.72,
+     "wind_dir_deg": 16.0,
+     "vis_km": 21.67,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 0.55,
+     "wind_ms": 2.86,
+     "wind_dir_deg": 28.0,
+     "vis_km": 21.77,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.54,
+     "wind_ms": 3.04,
+     "wind_dir_deg": 40.0,
+     "vis_km": 21.77,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.64,
+     "wind_ms": 3.25,
+     "wind_dir_deg": 52.0,
+     "vis_km": 21.73,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.7,
+     "wind_ms": 3.47,
+     "wind_dir_deg": 64.0,
+     "vis_km": 21.71,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.66,
+     "wind_ms": 3.67,
+     "wind_dir_deg": 76.0,
+     "vis_km": 21.72,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.53,
+     "wind_ms": 3.85,
+     "wind_dir_deg": 88.0,
+     "vis_km": 21.78,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.42,
+     "wind_ms": 4.03,
+     "wind_dir_deg": 100.0,
+     "vis_km": 21.82,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 575.0,
+   "bd": [
+    104.767854,
+    31.791459
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.57,
+     "wind_ms": 4.02,
+     "wind_dir_deg": 176.0,
+     "vis_km": 21.76,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.45,
+     "wind_ms": 3.82,
+     "wind_dir_deg": 188.0,
+     "vis_km": 21.81,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.4,
+     "wind_ms": 3.61,
+     "wind_dir_deg": 200.0,
+     "vis_km": 21.83,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.46,
+     "wind_ms": 3.41,
+     "wind_dir_deg": 212.0,
+     "vis_km": 21.81,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.59,
+     "wind_ms": 3.22,
+     "wind_dir_deg": 224.0,
+     "vis_km": 21.75,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.69,
+     "wind_ms": 3.03,
+     "wind_dir_deg": 236.0,
+     "vis_km": 21.71,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.68,
+     "wind_ms": 2.85,
+     "wind_dir_deg": 248.0,
+     "vis_km": 21.71,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.57,
+     "wind_ms": 2.68,
+     "wind_dir_deg": 260.0,
+     "vis_km": 21.76,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.45,
+     "wind_ms": 2.53,
+     "wind_dir_deg": 272.0,
+     "vis_km": 21.81,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.4,
+     "wind_ms": 2.43,
+     "wind_dir_deg": 284.0,
+     "vis_km": 21.83,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 0.48,
+     "wind_ms": 2.38,
+     "wind_dir_deg": 296.0,
+     "vis_km": 21.8,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 0.63,
+     "wind_ms": 2.37,
+     "wind_dir_deg": 308.0,
+     "vis_km": 21.73,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 0.76,
+     "wind_ms": 2.4,
+     "wind_dir_deg": 320.0,
+     "vis_km": 21.68,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 0.77,
+     "wind_ms": 2.45,
+     "wind_dir_deg": 332.0,
+     "vis_km": 21.68,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 0.66,
+     "wind_ms": 2.53,
+     "wind_dir_deg": 344.0,
+     "vis_km": 21.72,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 0.51,
+     "wind_ms": 2.64,
+     "wind_dir_deg": 356.0,
+     "vis_km": 21.78,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 0.44,
+     "wind_ms": 2.78,
+     "wind_dir_deg": 8.0,
+     "vis_km": 21.82,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 0.48,
+     "wind_ms": 2.96,
+     "wind_dir_deg": 20.0,
+     "vis_km": 21.8,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.6,
+     "wind_ms": 3.17,
+     "wind_dir_deg": 32.0,
+     "vis_km": 21.75,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.69,
+     "wind_ms": 3.38,
+     "wind_dir_deg": 44.0,
+     "vis_km": 21.71,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.68,
+     "wind_ms": 3.59,
+     "wind_dir_deg": 56.0,
+     "vis_km": 21.72,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.57,
+     "wind_ms": 3.78,
+     "wind_dir_deg": 68.0,
+     "vis_km": 21.76,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.44,
+     "wind_ms": 3.96,
+     "wind_dir_deg": 80.0,
+     "vis_km": 21.81,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.4,
+     "wind_ms": 4.13,
+     "wind_dir_deg": 92.0,
+     "vis_km": 21.83,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 600.0,
+   "bd": [
+    104.700753,
+    31.585308
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.48,
+     "wind_ms": 3.9,
+     "wind_dir_deg": 168.6,
+     "vis_km": 21.8,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.4,
+     "wind_ms": 3.69,
+     "wind_dir_deg": 180.6,
+     "vis_km": 21.83,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.44,
+     "wind_ms": 3.49,
+     "wind_dir_deg": 192.6,
+     "vis_km": 21.82,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.56,
+     "wind_ms": 3.3,
+     "wind_dir_deg": 204.6,
+     "vis_km": 21.76,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.67,
+     "wind_ms": 3.11,
+     "wind_dir_deg": 216.6,
+     "vis_km": 21.72,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.69,
+     "wind_ms": 2.92,
+     "wind_dir_deg": 228.6,
+     "vis_km": 21.71,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.6,
+     "wind_ms": 2.74,
+     "wind_dir_deg": 240.6,
+     "vis_km": 21.75,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.47,
+     "wind_ms": 2.59,
+     "wind_dir_deg": 252.6,
+     "vis_km": 21.8,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.4,
+     "wind_ms": 2.47,
+     "wind_dir_deg": 264.6,
+     "vis_km": 21.83,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.44,
+     "wind_ms": 2.39,
+     "wind_dir_deg": 276.6,
+     "vis_km": 21.81,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 0.56,
+     "wind_ms": 2.37,
+     "wind_dir_deg": 288.6,
+     "vis_km": 21.76,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 0.68,
+     "wind_ms": 2.38,
+     "wind_dir_deg": 300.6,
+     "vis_km": 21.72,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 0.7,
+     "wind_ms": 2.42,
+     "wind_dir_deg": 312.6,
+     "vis_km": 21.71,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 0.61,
+     "wind_ms": 2.49,
+     "wind_dir_deg": 324.6,
+     "vis_km": 21.74,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 0.48,
+     "wind_ms": 2.58,
+     "wind_dir_deg": 336.6,
+     "vis_km": 21.8,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 0.41,
+     "wind_ms": 2.71,
+     "wind_dir_deg": 348.6,
+     "vis_km": 21.83,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 0.44,
+     "wind_ms": 2.89,
+     "wind_dir_deg": 0.6,
+     "vis_km": 21.81,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 0.57,
+     "wind_ms": 3.09,
+     "wind_dir_deg": 12.6,
+     "vis_km": 21.76,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.68,
+     "wind_ms": 3.3,
+     "wind_dir_deg": 24.6,
+     "vis_km": 21.72,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.69,
+     "wind_ms": 3.51,
+     "wind_dir_deg": 36.6,
+     "vis_km": 21.71,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.6,
+     "wind_ms": 3.7,
+     "wind_dir_deg": 48.6,
+     "vis_km": 21.75,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.47,
+     "wind_ms": 3.89,
+     "wind_dir_deg": 60.6,
+     "vis_km": 21.8,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.4,
+     "wind_ms": 4.06,
+     "wind_dir_deg": 72.6,
+     "vis_km": 21.83,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.44,
+     "wind_ms": 4.23,
+     "wind_dir_deg": 84.6,
+     "vis_km": 21.81,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 625.0,
+   "bd": [
+    104.620763,
+    31.379744
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.41,
+     "wind_ms": 3.77,
+     "wind_dir_deg": 161.9,
+     "vis_km": 21.83,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.42,
+     "wind_ms": 3.57,
+     "wind_dir_deg": 173.9,
+     "vis_km": 21.82,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.53,
+     "wind_ms": 3.37,
+     "wind_dir_deg": 185.9,
+     "vis_km": 21.78,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.65,
+     "wind_ms": 3.18,
+     "wind_dir_deg": 197.9,
+     "vis_km": 21.73,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.7,
+     "wind_ms": 2.99,
+     "wind_dir_deg": 209.9,
+     "vis_km": 21.71,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.63,
+     "wind_ms": 2.81,
+     "wind_dir_deg": 221.9,
+     "vis_km": 21.73,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.51,
+     "wind_ms": 2.64,
+     "wind_dir_deg": 233.9,
+     "vis_km": 21.79,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.41,
+     "wind_ms": 2.51,
+     "wind_dir_deg": 245.9,
+     "vis_km": 21.83,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.42,
+     "wind_ms": 2.42,
+     "wind_dir_deg": 257.9,
+     "vis_km": 21.82,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.53,
+     "wind_ms": 2.37,
+     "wind_dir_deg": 269.9,
+     "vis_km": 21.78,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 0.65,
+     "wind_ms": 2.37,
+     "wind_dir_deg": 281.9,
+     "vis_km": 21.73,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 0.7,
+     "wind_ms": 2.4,
+     "wind_dir_deg": 293.9,
+     "vis_km": 21.71,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 0.63,
+     "wind_ms": 2.45,
+     "wind_dir_deg": 305.9,
+     "vis_km": 21.73,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 0.5,
+     "wind_ms": 2.54,
+     "wind_dir_deg": 317.9,
+     "vis_km": 21.79,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 0.41,
+     "wind_ms": 2.66,
+     "wind_dir_deg": 329.9,
+     "vis_km": 21.83,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 0.42,
+     "wind_ms": 2.81,
+     "wind_dir_deg": 341.9,
+     "vis_km": 21.82,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 0.53,
+     "wind_ms": 3.01,
+     "wind_dir_deg": 353.9,
+     "vis_km": 21.78,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 0.66,
+     "wind_ms": 3.22,
+     "wind_dir_deg": 5.9,
+     "vis_km": 21.72,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.7,
+     "wind_ms": 3.43,
+     "wind_dir_deg": 17.9,
+     "vis_km": 21.71,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.63,
+     "wind_ms": 3.63,
+     "wind_dir_deg": 29.9,
+     "vis_km": 21.74,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.5,
+     "wind_ms": 3.81,
+     "wind_dir_deg": 41.9,
+     "vis_km": 21.79,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.41,
+     "wind_ms": 3.99,
+     "wind_dir_deg": 53.9,
+     "vis_km": 21.83,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.42,
+     "wind_ms": 4.16,
+     "wind_dir_deg": 65.9,
+     "vis_km": 21.82,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.53,
+     "wind_ms": 4.32,
+     "wind_dir_deg": 77.9,
+     "vis_km": 21.78,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 650.0,
+   "bd": [
+    104.457692,
+    31.203462
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.41,
+     "wind_ms": 3.65,
+     "wind_dir_deg": 156.2,
+     "vis_km": 21.83,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.49,
+     "wind_ms": 3.45,
+     "wind_dir_deg": 168.2,
+     "vis_km": 21.79,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.62,
+     "wind_ms": 3.26,
+     "wind_dir_deg": 180.2,
+     "vis_km": 21.74,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.7,
+     "wind_ms": 3.07,
+     "wind_dir_deg": 192.2,
+     "vis_km": 21.71,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.66,
+     "wind_ms": 2.88,
+     "wind_dir_deg": 204.2,
+     "vis_km": 21.72,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.54,
+     "wind_ms": 2.7,
+     "wind_dir_deg": 216.2,
+     "vis_km": 21.77,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.43,
+     "wind_ms": 2.56,
+     "wind_dir_deg": 228.2,
+     "vis_km": 21.82,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.41,
+     "wind_ms": 2.45,
+     "wind_dir_deg": 240.2,
+     "vis_km": 21.83,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.5,
+     "wind_ms": 2.39,
+     "wind_dir_deg": 252.2,
+     "vis_km": 21.79,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.63,
+     "wind_ms": 2.37,
+     "wind_dir_deg": 264.2,
+     "vis_km": 21.74,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 0.7,
+     "wind_ms": 2.39,
+     "wind_dir_deg": 276.2,
+     "vis_km": 21.71,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 0.66,
+     "wind_ms": 2.43,
+     "wind_dir_deg": 288.2,
+     "vis_km": 21.72,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 0.54,
+     "wind_ms": 2.5,
+     "wind_dir_deg": 300.2,
+     "vis_km": 21.77,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 0.42,
+     "wind_ms": 2.6,
+     "wind_dir_deg": 312.2,
+     "vis_km": 21.82,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 0.41,
+     "wind_ms": 2.75,
+     "wind_dir_deg": 324.2,
+     "vis_km": 21.83,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 0.5,
+     "wind_ms": 2.93,
+     "wind_dir_deg": 336.2,
+     "vis_km": 21.79,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 0.63,
+     "wind_ms": 3.13,
+     "wind_dir_deg": 348.2,
+     "vis_km": 21.74,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 0.7,
+     "wind_ms": 3.34,
+     "wind_dir_deg": 0.2,
+     "vis_km": 21.71,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.66,
+     "wind_ms": 3.55,
+     "wind_dir_deg": 12.2,
+     "vis_km": 21.72,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.53,
+     "wind_ms": 3.74,
+     "wind_dir_deg": 24.2,
+     "vis_km": 21.78,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.42,
+     "wind_ms": 3.92,
+     "wind_dir_deg": 36.2,
+     "vis_km": 21.82,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.41,
+     "wind_ms": 4.1,
+     "wind_dir_deg": 48.2,
+     "vis_km": 21.83,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.5,
+     "wind_ms": 4.26,
+     "wind_dir_deg": 60.2,
+     "vis_km": 21.79,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.63,
+     "wind_ms": 4.4,
+     "wind_dir_deg": 72.2,
+     "vis_km": 21.74,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 675.0,
+   "bd": [
+    104.323309,
+    31.010907
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.46,
+     "wind_ms": 3.53,
+     "wind_dir_deg": 151.6,
+     "vis_km": 21.8,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.59,
+     "wind_ms": 3.34,
+     "wind_dir_deg": 163.6,
+     "vis_km": 21.75,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.69,
+     "wind_ms": 3.15,
+     "wind_dir_deg": 175.6,
+     "vis_km": 21.71,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.68,
+     "wind_ms": 2.95,
+     "wind_dir_deg": 187.6,
+     "vis_km": 21.71,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.57,
+     "wind_ms": 2.77,
+     "wind_dir_deg": 199.6,
+     "vis_km": 21.76,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.45,
+     "wind_ms": 2.61,
+     "wind_dir_deg": 211.6,
+     "vis_km": 21.81,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.4,
+     "wind_ms": 2.49,
+     "wind_dir_deg": 223.6,
+     "vis_km": 21.83,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.47,
+     "wind_ms": 2.41,
+     "wind_dir_deg": 235.6,
+     "vis_km": 21.8,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.6,
+     "wind_ms": 2.38,
+     "wind_dir_deg": 247.6,
+     "vis_km": 21.75,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.69,
+     "wind_ms": 2.38,
+     "wind_dir_deg": 259.6,
+     "vis_km": 21.71,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 0.68,
+     "wind_ms": 2.41,
+     "wind_dir_deg": 271.6,
+     "vis_km": 21.71,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 0.57,
+     "wind_ms": 2.46,
+     "wind_dir_deg": 283.6,
+     "vis_km": 21.76,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 0.45,
+     "wind_ms": 2.55,
+     "wind_dir_deg": 295.6,
+     "vis_km": 21.81,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 0.4,
+     "wind_ms": 2.68,
+     "wind_dir_deg": 307.6,
+     "vis_km": 21.83,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 0.47,
+     "wind_ms": 2.85,
+     "wind_dir_deg": 319.6,
+     "vis_km": 21.8,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 0.6,
+     "wind_ms": 3.05,
+     "wind_dir_deg": 331.6,
+     "vis_km": 21.75,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 0.69,
+     "wind_ms": 3.26,
+     "wind_dir_deg": 343.6,
+     "vis_km": 21.71,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 0.68,
+     "wind_ms": 3.47,
+     "wind_dir_deg": 355.6,
+     "vis_km": 21.72,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.57,
+     "wind_ms": 3.66,
+     "wind_dir_deg": 7.6,
+     "vis_km": 21.76,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.44,
+     "wind_ms": 3.85,
+     "wind_dir_deg": 19.6,
+     "vis_km": 21.81,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.4,
+     "wind_ms": 4.03,
+     "wind_dir_deg": 31.6,
+     "vis_km": 21.83,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.47,
+     "wind_ms": 4.2,
+     "wind_dir_deg": 43.6,
+     "vis_km": 21.8,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.6,
+     "wind_ms": 4.35,
+     "wind_dir_deg": 55.6,
+     "vis_km": 21.75,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.69,
+     "wind_ms": 4.47,
+     "wind_dir_deg": 67.6,
+     "vis_km": 21.71,
+     "temp_c": 18.8
+    }
+   ]
+  },
+  {
+   "km": 690.43,
+   "bd": [
+    104.25889,
+    30.883577
+   ],
+   "hours": [
+    {
+     "h": 0,
+     "rain_mm_h": 0.52,
+     "wind_ms": 3.46,
+     "wind_dir_deg": 149.3,
+     "vis_km": 21.78,
+     "temp_c": 17.0
+    },
+    {
+     "h": 1,
+     "rain_mm_h": 0.65,
+     "wind_ms": 3.27,
+     "wind_dir_deg": 161.3,
+     "vis_km": 21.73,
+     "temp_c": 15.6
+    },
+    {
+     "h": 2,
+     "rain_mm_h": 0.7,
+     "wind_ms": 3.08,
+     "wind_dir_deg": 173.3,
+     "vis_km": 21.71,
+     "temp_c": 14.8
+    },
+    {
+     "h": 3,
+     "rain_mm_h": 0.64,
+     "wind_ms": 2.88,
+     "wind_dir_deg": 185.3,
+     "vis_km": 21.73,
+     "temp_c": 14.5
+    },
+    {
+     "h": 4,
+     "rain_mm_h": 0.51,
+     "wind_ms": 2.71,
+     "wind_dir_deg": 197.3,
+     "vis_km": 21.79,
+     "temp_c": 14.8
+    },
+    {
+     "h": 5,
+     "rain_mm_h": 0.41,
+     "wind_ms": 2.56,
+     "wind_dir_deg": 209.3,
+     "vis_km": 21.83,
+     "temp_c": 15.6
+    },
+    {
+     "h": 6,
+     "rain_mm_h": 0.42,
+     "wind_ms": 2.45,
+     "wind_dir_deg": 221.3,
+     "vis_km": 21.82,
+     "temp_c": 17.0
+    },
+    {
+     "h": 7,
+     "rain_mm_h": 0.52,
+     "wind_ms": 2.39,
+     "wind_dir_deg": 233.3,
+     "vis_km": 21.78,
+     "temp_c": 18.8
+    },
+    {
+     "h": 8,
+     "rain_mm_h": 0.65,
+     "wind_ms": 2.37,
+     "wind_dir_deg": 245.3,
+     "vis_km": 21.73,
+     "temp_c": 20.8
+    },
+    {
+     "h": 9,
+     "rain_mm_h": 0.7,
+     "wind_ms": 2.39,
+     "wind_dir_deg": 257.3,
+     "vis_km": 21.71,
+     "temp_c": 23.0
+    },
+    {
+     "h": 10,
+     "rain_mm_h": 0.64,
+     "wind_ms": 2.42,
+     "wind_dir_deg": 269.3,
+     "vis_km": 21.73,
+     "temp_c": 25.2
+    },
+    {
+     "h": 11,
+     "rain_mm_h": 0.51,
+     "wind_ms": 2.49,
+     "wind_dir_deg": 281.3,
+     "vis_km": 21.79,
+     "temp_c": 27.2
+    },
+    {
+     "h": 12,
+     "rain_mm_h": 0.41,
+     "wind_ms": 2.6,
+     "wind_dir_deg": 293.3,
+     "vis_km": 21.83,
+     "temp_c": 29.0
+    },
+    {
+     "h": 13,
+     "rain_mm_h": 0.42,
+     "wind_ms": 2.74,
+     "wind_dir_deg": 305.3,
+     "vis_km": 21.82,
+     "temp_c": 30.4
+    },
+    {
+     "h": 14,
+     "rain_mm_h": 0.53,
+     "wind_ms": 2.93,
+     "wind_dir_deg": 317.3,
+     "vis_km": 21.78,
+     "temp_c": 31.2
+    },
+    {
+     "h": 15,
+     "rain_mm_h": 0.65,
+     "wind_ms": 3.13,
+     "wind_dir_deg": 329.3,
+     "vis_km": 21.73,
+     "temp_c": 31.5
+    },
+    {
+     "h": 16,
+     "rain_mm_h": 0.7,
+     "wind_ms": 3.34,
+     "wind_dir_deg": 341.3,
+     "vis_km": 21.71,
+     "temp_c": 31.2
+    },
+    {
+     "h": 17,
+     "rain_mm_h": 0.63,
+     "wind_ms": 3.54,
+     "wind_dir_deg": 353.3,
+     "vis_km": 21.73,
+     "temp_c": 30.4
+    },
+    {
+     "h": 18,
+     "rain_mm_h": 0.51,
+     "wind_ms": 3.73,
+     "wind_dir_deg": 5.3,
+     "vis_km": 21.79,
+     "temp_c": 29.0
+    },
+    {
+     "h": 19,
+     "rain_mm_h": 0.41,
+     "wind_ms": 3.91,
+     "wind_dir_deg": 17.3,
+     "vis_km": 21.83,
+     "temp_c": 27.2
+    },
+    {
+     "h": 20,
+     "rain_mm_h": 0.42,
+     "wind_ms": 4.09,
+     "wind_dir_deg": 29.3,
+     "vis_km": 21.82,
+     "temp_c": 25.2
+    },
+    {
+     "h": 21,
+     "rain_mm_h": 0.53,
+     "wind_ms": 4.26,
+     "wind_dir_deg": 41.3,
+     "vis_km": 21.78,
+     "temp_c": 23.0
+    },
+    {
+     "h": 22,
+     "rain_mm_h": 0.65,
+     "wind_ms": 4.4,
+     "wind_dir_deg": 53.3,
+     "vis_km": 21.73,
+     "temp_c": 20.8
+    },
+    {
+     "h": 23,
+     "rain_mm_h": 0.7,
+     "wind_ms": 4.5,
+     "wind_dir_deg": 65.3,
+     "vis_km": 21.71,
+     "temp_c": 18.8
+    }
+   ]
+  }
+ ]
+}

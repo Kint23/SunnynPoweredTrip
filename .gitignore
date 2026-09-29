@@ -1,0 +1,45 @@
+# ---- 敏感凭据：绝不提交 ----
+.env
+*.env
+.env.*
+# 服务端 AK / MCP Token 一律走环境变量，不落盘
+app/config.local.js
+
+# ---- 本地/工具产物 ----
+data/cache/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ---- 部署用的裁剪产物 ----
+dist/
+
+# ---- 编辑器/系统 ----
+.vscode/*
+!.vscode/settings.json
+Thumbs.db
+desktop.ini
+
+# ---- 可由 tools/ 重新生成的大图（seed 固定，见 docs/AI素材说明.md）----
+banner/ai-bg-*.png
+banner/film-*.png
+banner/demo/
+banner/_*.png
+
+# 只上传正片；分镜素材留在本机（可用 tools/ 重建）
+video/片头-*.mp4
+video/氛围-*.mp4
+video/演示-*.mp4
+
+# 正片的中间产物（可由 tools/ 重建）
+video/_frames/
+video/_timeline.json
+video/_title.png
+video/music.wav
+video/subs.ass
+video/正片字幕.srt
+
+# 本机备份配方：含本机用户名/路径与私人邮箱，绝不上传
+# （ohbj 的教训：一旦推过，即使删掉文件 + force push，GitHub 仍保留旧顶点）
+BACKUP.md

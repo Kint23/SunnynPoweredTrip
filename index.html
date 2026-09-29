@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>阳光充足 · 基于气象与能耗预测的物流调度</title>
+<link rel="stylesheet" href="app/style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="mark">晴</span>
+    <div>
+      <h1>阳光充足</h1>
+      <p>基于气象与能耗预测的物流调度 · 西安 → 成都 G5</p>
+    </div>
+  </div>
+
+  <div class="controls">
+    <label class="field">情景
+      <select id="scenario"></select>
+    </label>
+    <label class="field">出发
+      <input id="depart" type="number" min="0" max="23" step="0.5" style="width:64px" />
+      <span>时</span>
+    </label>
+    <label class="field">出车电量
+      <input id="soc0" type="range" min="20" max="100" step="1" />
+      <b id="soc0v" style="width:38px;text-align:right"></b>
+    </label>
+    <label class="field">总重
+      <input id="mass" type="range" min="30" max="60" step="1" />
+      <b id="massv" style="width:44px;text-align:right"></b>
+    </label>
+    <button class="btn primary" id="recalc">重新计算</button>
+  </div>
+
+  <span class="spacer"></span>
+  <span class="badge" id="srcTag">数据：离线缓存</span>
+</header>
+
+<div class="wrap">
+
+  <!-- ── 左栏：决策 ───────────────────────────────────── -->
+  <aside class="sidebar">
+
+    <section class="card panel">
+      <h2>决策结论</h2>
+      <div class="verdict">
+        <span class="tag" id="vTag">—</span>
+        <span class="note" style="margin:0" id="vWhy"></span>
+      </div>
+      <dl class="kv" id="vKv"></dl>
+    </section>
+
+    <section class="card panel">
+      <h2>候选方案 · 为什么选它</h2>
+      <div id="cands"></div>
+      <div class="note">
+        综合代价 = 全部耗时 × 1.25（分钟→等效公里）＋ 风险暴露 × 5.0（风险厌恶系数）。
+        两个系数都可在 <code>app/model.js</code> 的 <code>DEFAULTS</code> 里调。
+      </div>
+    </section>
+
+    <section class="card panel">
+      <h2>补给站 · 到站时刻可达性</h2>
+      <div id="stations"></div>
+      <div class="note" id="stNote"></div>
+    </section>
+
+    <section class="card panel">
+      <h2>模型在算什么</h2>
+      <div class="why" id="why"></div>
+    </section>
+
+  </aside>
+
+  <!-- ── 地图 ─────────────────────────────────────────── -->
+  <div class="stage card">
+    <div class="map">
+      <div id="bmap"></div>
+      <canvas id="fallback"></canvas>
+    </div>
+    <div class="maptag" id="mapTag">底图加载中…</div>
+    <div class="legend">
+      <div><i style="background:#9aa7b4"></i>原路线（690 km）</div>
+      <div><i style="background:#0a6ebd"></i>优化路线</div>
+      <div><i style="background:#d93025;height:9px;width:9px;border-radius:2px"></i>高风险积水段</div>
+      <div><span class="dot" style="background:#0f9d58"></span>可用补给站</div>
+      <div><span class="dot" style="background:#c2ccd6"></span>不可达 / 已被越过</div>
+      <div><span class="dot" style="background:#e8a33d"></span>电量告警点</div>
+      <div><span class="dot" style="background:#16202b"></span>车辆当前位置</div>
+    </div>
+    <div class="timebar">
+      <div class="row">
+        <span class="clock" id="clock">08:00</span>
+        <span class="hint" id="tHint">拖动查看沿途雨带随时间的变化</span>
+        <span class="spacer"></span>
+        <button class="btn" id="playBtn">▶ 播放</button>
+      </div>
+      <input id="time" type="range" min="0" max="24" step="0.1" value="0" />
+    </div>
+  </div>
+
+  <!-- ── 剖面图 ───────────────────────────────────────── -->
+  <section class="profile card">
+    <span class="cap">沿里程剖面 · 海拔 / 降水 / 风险 / 电量</span>
+    <span class="lg">
+      <span><i style="background:#b9c4ce"></i>海拔</span>
+      <span><i style="background:#3aa0e8"></i>降水 mm/h</span>
+      <span><i style="background:#d93025"></i>积水风险</span>
+      <span><i style="background:#0f9d58"></i>电量 SOC</span>
+    </span>
+    <canvas id="profile"></canvas>
+  </section>
+
+</div>
+
+<script src="app/config.js"></script>
+<script src="app/model.js"></script>
+<script src="app/app.js"></script>
+</body>
+</html>
