@@ -59,8 +59,8 @@ app/model.js  ─┤  ② 预测与优化（纯函数，浏览器 / Node 双用�
 |---|---|
 | ① 生成数据 | `uv run tools/make_demo_data.py` |
 | ② 跑模型 / 冻结金标 | `node tools/run_model.mjs` ｜ `node tools/run_model.mjs --update-expect` |
-| ③ 自检（41 项） | `node tools/validate.mjs` |
-| ④ Banner | `uv run tools/make_banner.py` |
+| ③ 自检（42 项） | `node tools/validate.mjs` |
+| ④ Banner | `uv run tools/make_banner.py` ｜ 校验 `uv run tools/check_banner.py` |
 | ⑤ 正片 | `uv run tools/record_demo.py` |
 
 > **纪律**：页面**不直接调 WebAPI**，只读 `data/*.json`。
@@ -155,8 +155,8 @@ banner/  video/
 - [x] 干线、气象、地形、补给站、情景数据可复现生成
 - [x] 预测与优化模型 + 三个候选策略统一择优
 - [x] 单页 Demo（地图 / 时间轴 / 剖面图 / 对比卡 / 可解释文本）
-- [x] 自检 41 项全绿
-- [x] Banner 1200×675 已导出
+- [x] 自检 42 项全绿
+- [x] Banner 1200×675 已导出（`uv run tools/check_banner.py` 字节级校验通过）
 - [x] 60 秒正片已生成
 - [x] **已上线**：<https://kint23.github.io/SunnynPoweredTrip/>（Pages 自动部署，底图与数据均已实测）
 - [x] 三档备份已接入（本机 git / 本机第二块盘副本 / GitHub，三档 SHA 一致）

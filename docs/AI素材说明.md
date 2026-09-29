@@ -31,10 +31,11 @@
 # ① 数据（改完模型/情景后必须先跑这一步）
 uv run tools/make_demo_data.py
 node tools/run_model.mjs --update-expect
-node tools/validate.mjs                 # 必须 41 项全绿
+node tools/validate.mjs                 # 必须 42 项全绿
 
 # ② Banner
 uv run tools/make_banner.py
+uv run tools/check_banner.py            # 必须「2 个官方 Banner 全部合规」
 
 # ③ 正片
 uv run python -m http.server 8123 --bind 127.0.0.1     # 另开一个终端
@@ -191,3 +192,38 @@ dLat = off / 110.57          * Math.sin(perp);
 ffmpeg -v info -i "正片-晴好出发.mp4" -vf "select='gt(scene,0.2)',showinfo" -f null - 2>&1 | Select-String pts_time
 ```
 切点处如果出现**成对**的高分帧（相隔 ~0.28s），就是“抽一下”；改成叠化后应为 0。
+
+### 坑 13：二进制文件被“文本模式”吃掉一个字节 —— Banner PNG 静默损坏
+`banner/晴好出发-banner-1200x675.png` 在仓库里一直是**坏的**，而且坏了很久没人发现：
+文件头应该是 `89 50 4e 47 0d 0a 1a 0a`，实际是 `89 50 4e 47 0a 1a 0a 00` ——
+偏移 4 处的 `0D` 没了，其后整体左移 1 字节（`IHDR` 跑到偏移 11）。
+这是**全局 CRLF→LF 文本转换**的典型痕迹，而 PNG 的 8 字节签名里**恰好含一个 `0D 0A`**，
+所以只要经过一次文本模式往返，PNG 必坏；`ffprobe` 对它的反应是 `0x0,unknown`。
+
+**定量判据**（比“看着不对”可靠得多）：
+```
+新生成 90941 字节，0D0A 对 5 个
+仓库里 90936 字节，0D0A 对 0 个
+→ 90941 - 90936 = 5 = 被吃掉的 0D0A 对数
+```
+同一个 JPG 毫发无损，因为它整份文件里**恰好 0 个 `0D 0A`** ——
+这既解释了“为什么只有 PNG 坏”，也说明生成器 `tools/make_banner.py` 是无辜的
+（重生成后 JPG 的 blob 哈希与提交版一字不差：`a52bc828…`）。
+
+护栏：
+- 仓库根加 `.gitattributes`，把 `*.png/*.jpg/*.webp/*.mp4` 标成 `binary`。
+  本机 `core.autocrlf=true` 是**系统级**配置（`C:/Program Files/Git/etc/gitconfig`），
+  不写 `.gitattributes` 就只能靠 git 的二进制探测，迟早出事。
+- 新增 `tools/check_banner.py`（纯标准库，自己解析 PNG IHDR / JPEG SOFn / WebP VP8X），
+  校验 1200×675、PNG/JPG、≤5MB —— 把“尺寸对不对”从人眼判断变成可执行检查。
+
+教训（顺手记下我自己踩的）：**排查时我先用了有 bug 的检查脚本，差点得出相反结论。**
+它连报三处错：
+1. 用 `b'\x0d'` 字面量计数（实际被转义成 4 字节的 `\x0d` 字符串，计数恒为 0，
+   于是得出“所有 CR 都被剥掉”的错误结论）；
+2. 拿 3 字节 JPEG 签名去比 8 字节切片（恒不相等，于是 JPG 被误判为“签名也坏了”）；
+3. 用 `git ls-tree` 列文件却没关 `core.quotePath`，非 ASCII 文件名被转义成 `"banner/\346…"`，
+   导致 PNG/JPG **被静默跳过**（那一轮清单里只剩 `teaser.webp`）。
+
+**结论：验证脚本本身也要被验证** —— 至少留一条独立路径（这里是 `ffprobe` 与图像渲染）交叉确认，
+不能只信自己刚写的检查器。

@@ -1,0 +1,17 @@
+# 二进制素材：禁止任何换行转换与文本差异。
+#
+# 本机 gitconfig（C:/Program Files/Git/etc/gitconfig）里 core.autocrlf=true，
+# 一旦某个二进制文件被 git 或某个文本模式的工具按 CRLF 处理，
+# 文件就会静默损坏 —— Banner 的 PNG 就这样坏过一次：
+# 全部 5 个 "0D 0A" 字节对被剥成 "0A"，而 PNG 的 8 字节签名里恰好含一个，
+# 于是签名变成 89 50 4e 47 0a 1a 0a 00，任何解码器都打不开（ffprobe 只报 0x0）。
+# 同一个 JPG 因为整份文件里恰好 0 个 "0D 0A"，反而毫发无损。
+#
+# 校验：uv run tools/check_banner.py
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.webp  binary
+*.ico   binary
+*.mp4   binary
+*.woff2 binary
