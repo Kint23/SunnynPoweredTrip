@@ -158,8 +158,9 @@ banner/  video/
 - [x] 自检 41 项全绿
 - [x] Banner 1200×675 已导出
 - [x] 60 秒正片已生成
-- [ ] 填正式 AK（并为本站单独建一个浏览器端 AK）
+- [x] **已上线**：<https://kint23.github.io/SunnynPoweredTrip/>（Pages 自动部署，底图与数据均已实测）
+- [x] 三档备份已接入（本机 git / `D:\VSbackup\backup-dir` / GitHub，三档 SHA 一致）
+- [ ] 为本站单独新建浏览器端 AK（当前沿用同账号下 ohbj 的 AK，同域名白名单可用）
 - [ ] 用 `tools/fetch_weather.py` / `fetch_stations.py` 替换为真实气象与真实 POI
 - [ ] 在线模式接驾车 v2 实测绕行里程（当前为示意几何）
-- [ ] 部署上线 + 用无痕窗口验收
 - [ ] 上传正片到平台并把链接填进报名表
