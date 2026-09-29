@@ -16,8 +16,8 @@ venv/
 dist/
 
 # ---- 编辑器/系统 ----
-.vscode/*
-!.vscode/settings.json
+# .vscode/ 含本机解释器绝对路径，与 ohbj 保持一致：整个目录不入仓库
+.vscode/
 Thumbs.db
 desktop.ini
 
