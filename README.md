@@ -160,7 +160,7 @@ banner/  video/
 - [x] 60 秒正片已生成
 - [x] **已上线**：<https://kint23.github.io/SunnynPoweredTrip/>（Pages 自动部署，底图与数据均已实测）
 - [x] 三档备份已接入（本机 git / `D:\VSbackup\backup-dir` / GitHub，三档 SHA 一致）
-- [ ] 为本站单独新建浏览器端 AK（当前沿用同账号下 ohbj 的 AK，同域名白名单可用）
+- [x] 已配置本站专用浏览器端 AK（`app/config.js`，Referer 白名单需含 `localhost` 与 `kint23.github.io`）
 - [ ] 用 `tools/fetch_weather.py` / `fetch_stations.py` 替换为真实气象与真实 POI
 - [ ] 在线模式接驾车 v2 实测绕行里程（当前为示意几何）
 - [ ] 上传正片到平台并把链接填进报名表

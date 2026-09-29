@@ -13,9 +13,11 @@
  *   这么做是为了让演示与录屏**不依赖网络与配额**，可复现。
  */
 window.APP_CONFIG = {
-  // 本机演示可直接沿用同账号下 ohbj 的浏览器端 AK（同一域名白名单）。
-  // 正式提交前建议为本站单独新建 AK，并把域名加进白名单。
-  ak: "ApBmLRG5kTBLLcz6LOq7WSgmh2D8vkFG",
+  // 本站专用浏览器端 AK（为「晴好出发」单独创建）。
+  // ⚠️ Referer 白名单必须同时包含：localhost、127.0.0.1、kint23.github.io
+  //    （缺哪个，那个域名下底图就不出来，会自动降级到离线示意底图）
+  // 浏览器端 AK 明文写在网页里是设计使然，靠 Referer 白名单保护，不是密钥。
+  ak: "b1h24zdWn8bOMAwpBWJL4e4MqAeSQyRB",
 
   center: [106.05, 32.65],   // 西安 → 成都 干线中点
   zoom: 7,
