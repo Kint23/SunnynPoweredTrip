@@ -159,6 +159,7 @@
   }
 
   function paintTime() {
+    if (!S.res || !S.path) return;
     $("clock").textContent = fmtHM(S.hour);
     var depart = S.res.depart_hour;
     var t = S.path.trace;
@@ -335,6 +336,8 @@
   }
 
   function renderMap() {
+    // 首屏尚未就绪时（例如页面还在加载就触发了 resize）直接跳过，否则会抛 null 异常
+    if (!S.data || !S.res) return;
     if (S.useGL && S.map) renderGL(); else renderCanvas();
   }
 
@@ -547,6 +550,7 @@
 
   /* ────────────────────────── 剖面图 ────────────────────────── */
   function renderProfile() {
+    if (!S.data || !S.res) return;
     var cv = $("profile");
     var box = cv.parentNode.getBoundingClientRect();
     var dpr = window.devicePixelRatio || 1;
