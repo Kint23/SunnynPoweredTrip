@@ -66,7 +66,7 @@ SUBS: list[tuple[float, str]] = [
     (44.0, "雨带还没起来：无高风险段，风险暴露仅 15"),
     (48.0, "重载 + 低电量：模型直接说「这趟跑不完」"),
     (51.6, "不编一个方案出来 —— 这才是可执行的调度"),
-    (54.2, "阳光充足 · 让每一趟都走得稳"),
+    (54.2, "晴好出发 · 让每一趟都走得稳"),
 ]
 TITLE_FRAMES = int(TITLE_SEC * FPS)
 XFADE_FRAMES = int(XFADE_SEC * FPS)
@@ -112,7 +112,7 @@ def build_title(outdir: Path) -> Path:
     kx, ky = 200, 392
     d.rounded_rectangle([kx, ky, kx + 84, ky + 84], radius=24, fill=SKY)
     d.text((kx + 42, ky + 44), "晴", font=font("msyhbd.ttc", 46), fill=(255, 255, 255), anchor="mm")
-    d.text((kx + 118, ky - 6), "阳光充足", font=font("msyhbd.ttc", 96), fill=(255, 255, 255), anchor="la")
+    d.text((kx + 118, ky - 6), "晴好出发", font=font("msyhbd.ttc", 96), fill=(255, 255, 255), anchor="la")
     d.text((kx + 124, ky + 112), "基于气象与能耗预测的物流调度",
            font=font("msyh.ttc", 40), fill=(150, 180, 210), anchor="la")
     d.line([(kx + 124, ky + 176), (W - 200, ky + 176)], fill=(48, 78, 108), width=2)
@@ -350,7 +350,7 @@ def encode(video_dir: Path, seq_dir: Path, crf: int):
         print("生成配乐（自制合成，无版权顾虑）…")
         subprocess.run(["uv", "run", str(Path("tools/make_music.py")), "--seconds", "64",
                         "--out", str(music)], check=True)
-    out = video_dir / "正片-阳光充足.mp4"
+    out = video_dir / "正片-晴好出发.mp4"
     cmd = [
         "ffmpeg", "-y", "-framerate", str(FPS), "-i", "_seq/%05d.jpg",
         "-i", "music.wav",

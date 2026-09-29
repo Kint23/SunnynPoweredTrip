@@ -91,11 +91,11 @@ def fit_projector(poly, rect):
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--title", default="阳光充足")
+    ap.add_argument("--title", default="晴好出发")
     ap.add_argument("--subtitle", default="基于气象与能耗预测的物流调度")
     ap.add_argument("--claim", default="避雨 + 补能，一次算出一条能走的路")
     ap.add_argument("--outdir", default="banner")
-    ap.add_argument("--stem", default="阳光充足-banner-1200x675")
+    ap.add_argument("--stem", default="晴好出发-banner-1200x675")
     ap.add_argument("--bg", default=None, help="ComfyUI 生成的底纹（可选）")
     ap.add_argument("--bg-mix", type=float, default=0.80, help="底色叠加强度 0~1")
     args = ap.parse_args()

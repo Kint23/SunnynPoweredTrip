@@ -1,4 +1,4 @@
-# 阳光充足 · 基于气象与能耗预测的物流调度
+# 晴好出发 · 基于气象与能耗预测的物流调度
 
 把**预测**接进算路闭环：沿路线取点拉取逐小时气象 → 圈出低洼高风险积水段 →
 按坡度/风阻/暴雨/空调加权算百公里能耗 → 定位电量枯竭点 → 就近匹配补给站 →
@@ -13,7 +13,7 @@
 [![点击播放正片](banner/teaser.webp)](https://kint23.github.io/SunnynPoweredTrip/video/demo.mp4)
 
 🖥 **在线 Demo**：<https://kint23.github.io/SunnynPoweredTrip/>
-📷 **封面图**：`banner/阳光充足-banner-1200x675.png`
+📷 **封面图**：`banner/晴好出发-banner-1200x675.png`
 
 > ⚠️ GitHub 的 README 会过滤 `<video>` / `<iframe>`，所以用**可点击的动图**作播放入口。
 

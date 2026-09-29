@@ -18,9 +18,9 @@
 
 | 文件 | 说明 |
 |---|---|
-| `banner/阳光充足-banner-1200x675.png` / `.jpg` | **正式 Banner**（89 KB / 105 KB） |
+| `banner/晴好出发-banner-1200x675.png` / `.jpg` | **正式 Banner**（89 KB / 105 KB） |
 | `banner/teaser.webp` | README 用可点击动图（720×406，10 s，1.8 MB） |
-| `video/正片-阳光充足.mp4` | **正片**（60.0 s = 4.0 s 片头 + 55.4 s 实机 / 1920×1080 / 25fps / 6.4 MB / 字幕已烧入 / 自制配乐，无配音） |
+| `video/正片-晴好出发.mp4` | **正片**（60.0 s = 4.0 s 片头 + 55.4 s 实机 / 1920×1080 / 25fps / 6.4 MB / 字幕已烧入 / 自制配乐，无配音） |
 | `video/_title.png` | 片头标题卡（1920×1080） |
 | `video/subs.ass` | 字幕（ASS，显式 PlayResX/Y=1920/1080）——中间产物 |
 | `video/music.wav` | 自制配乐——中间产物 |
@@ -44,7 +44,7 @@ uv run tools/record_demo.py --list-only                # 只看时间轴
 
 # ④ README 预览动图（在 video/ 目录下执行，避免滤镜路径里出现盘符冒号）
 cd video
-ffmpeg -y -ss 0 -t 3 -i "正片-阳光充足.mp4" -ss 15 -t 3 -i "正片-阳光充足.mp4" -ss 30 -t 4 -i "正片-阳光充足.mp4" `
+ffmpeg -y -ss 0 -t 3 -i "正片-晴好出发.mp4" -ss 15 -t 3 -i "正片-晴好出发.mp4" -ss 30 -t 4 -i "正片-晴好出发.mp4" `
   -filter_complex "[0:v]fps=8,scale=720:-2:flags=lanczos,setsar=1[a];[1:v]fps=8,scale=720:-2:flags=lanczos,setsar=1[b];[2:v]fps=8,scale=720:-2:flags=lanczos,setsar=1[c];[a][b][c]concat=n=3:v=1:a=0[v]" `
   -map "[v]" -c:v libwebp -q:v 68 -loop 0 "..\banner\teaser.webp"
 ```

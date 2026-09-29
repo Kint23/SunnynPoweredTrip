@@ -1,6 +1,10 @@
 阳光充足：基于气象与能耗预测物流调度优化
 SunnynPoweredTrip
 
+（本文件是最初的需求说明，保留原样。项目对外展示名已于 2026-09-30
+  由「阳光充足」改为「晴好出发」，代码、文档、Banner 与正片均已更新；
+  仓库名 SunnynPoweredTrip 保持不变。）
+
 Gemini建议：
 # 智能物流项目需求规格书（Hackathon Prompt & PRD）
 
