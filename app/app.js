@@ -42,6 +42,9 @@
       bindControls();
       recompute(true);
       initMap();
+      // 调试/录屏钩子：tools/record_demo.py 用它把「高风险段、告警点」的屏幕坐标取出来，
+      // 好在讲解视频里把它们圈出来。只暴露只读状态，不影响页面行为。
+      window.__SPT = S;
     }).catch(function (e) {
       $("mapTag").textContent = "数据加载失败：" + e.message;
       $("srcTag").textContent = "请用本地服务器打开（见 README）";

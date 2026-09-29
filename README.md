@@ -90,7 +90,7 @@ tools/
   run_model.mjs             ② 跑模型 / 冻结金标
   validate.mjs              ③ 自检（含绕行几何的回归测试）
   make_banner.py            ④ Banner（文字与地图都由数据绘制）
-  record_demo.py            ⑤ 60 秒正片（CDP 逐帧采集 → 烧字幕 → 混音）
+  record_demo.py            ⑤ 60 秒讲解版正片（CDP 逐幁采集 → 放大+圈画 → 烧字幕 → 混音）
   make_music.py             自制配乐（无版权顾虑，正片默认用它）
   make_subs.py             ↕ 独立的 SRT→ASS 小工具（record_demo 内部已自带写 ASS）
   comfy_generate.py        ↕ 可选的 ComfyUI 出图（想给 Banner 加 AI 底纹时用）
