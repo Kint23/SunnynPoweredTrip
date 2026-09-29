@@ -94,9 +94,10 @@ TITLE_FRAMES = int(TITLE_SEC * FPS)
 XFADE_FRAMES = int(XFADE_SEC * FPS)
 LEAD = TITLE_FRAMES + XFADE_FRAMES
 LEAD_SEC = LEAD / FPS
-RAMP_IN, RAMP_OUT = 9, 7        # 放大/缩小的缓动帧数
 MAX_ZOOM = 3.0
 MIN_ZOOM = 1.8                  # 地图/剖面图跟整帧一样宽，不限一下根本不会真的放大
+XF_SEC = 0.45                   # 镜头之间**交叉溶解**的时长（秒）
+GAP_MIN = 0.6                   # 比这更短的空档直接并进上一个镜头，避免来回抽一下
 
 
 def font(name: str, size: int):
@@ -408,13 +409,6 @@ def ease(t):
     return t * t * (3 - 2 * t)
 
 
-def seg_at(t: float):
-    for s in SEGMENTS:
-        if s[0] <= t < s[1]:
-            return s
-    return None
-
-
 def ann_box(layout, ann, focus):
     """把圈画描述算成源帧坐标的矩形；点类返回 None（由调用方画圆）。"""
     if not ann:
@@ -469,31 +463,107 @@ def ring(d: ImageDraw.ImageDraw, box, alpha: float, ellipse: bool):
                                 radius=18, outline=col, width=w)
 
 
+def build_items(segments):
+    """把镜头表编成「镜头序列」：segments 之间的短空档直接并进上一个镜头。"""
+    items = []
+    for s in segments:
+        t0, t1, key, note, ann, mode = s
+        items.append({"kind": "shot" if key else "raw", "t0": t0, "t1": t1, "seg": s})
+    merged = []
+    for it in items:
+        if merged and it["t0"] - merged[-1]["t1"] < GAP_MIN:
+            merged[-1]["t1"] = it["t0"]
+        merged.append(it)
+    return merged
+
+
+def item_index_at(items, t):
+    idx = None
+    for i, it in enumerate(items):
+        if it["t0"] <= t:
+            idx = i
+        else:
+            break
+    return idx
+
+
+def shot_progress(it, t):
+    """镜头内部进度：稳定后就是 1.0；溶解期间只给一点很轻的推进。"""
+    seg = it.get("seg")
+    if not seg or seg[5] != "zoom":
+        return 1.0
+    el = t - it["t0"]
+    if el >= XF_SEC or el < 0:
+        return 1.0
+    return 0.88 + 0.12 * ease(el / XF_SEC)
+
+
+def compose_shot(img: Image.Image, it, snaps, t: float):
+    """渲染一个镜头（不负责溶解）：返回 (画面, ox, oy, sc)；raw 镜头原样返回。"""
+    if it["kind"] != "shot":
+        return img, 0.0, 0.0, 1.0
+    t0, t1, key, note, ann, mode = it["seg"]
+    layout = pick_layout(snaps, t0)
+    rect = focus_rect(layout, key)
+    if not rect:
+        return img, 0.0, 0.0, 1.0
+    p = shot_progress(it, t)
+    if mode == "pip":
+        out, ox, oy, sc = pip_frame(img, rect, p)
+    else:
+        win = window_for(rect)
+        win = [lerp(0, win[j], p) for j in range(4)]
+        x, y, w, h = [int(round(v)) for v in win]
+        x, y = max(0, min(x, W - w)), max(0, min(y, H - h))
+        w, h = min(w, W - x), min(h, H - y)
+        out = img.crop((x, y, x + w, y + h)).resize((W, H), Image.LANCZOS)
+        sc = W / w
+        ox, oy = -x * sc, -y * sc
+    d = ImageDraw.Draw(out, "RGBA")
+    # 圈画：统一用 屏幕坐标 = 源坐标 × sc + (ox, oy)
+    if ann and ann[0] == "pt":
+        pt = (layout.get("pts") or {}).get(ann[1])
+        if pt:
+            cx, cy = pt[0] * sc + ox, pt[1] * sc + oy
+            r = 104 * p
+            ring(d, (cx - r, cy - r, cx + r, cy + r), p, True)
+    elif ann:
+        bx = ann_box(layout, ann, rect)
+        if bx:
+            ax, ay = bx[0] * sc + ox, bx[1] * sc + oy
+            aw, ah = bx[2] * sc, bx[3] * sc
+            ring(d, (ax, ay, ax + aw, ay + ah), p, False)
+    if note:
+        chip(d, note, p)
+    return out, ox, oy, sc
+
+
 def compose(seq_dir: Path, n: int, snaps, enabled: bool = True):
-    """把每个讲解段落的相关区域平滑放大到满屏，并圈出重点。"""
+    """讲解层：把相关部位放大/画中画，并圈出重点。
+
+    切镜一律用**交叉溶解**，不再「先缩回整帧、再放大进去」——后者在相邻镜头之间
+    会完整地抽一下（缩出→推进），观感就是“闪”。
+    现在镜头内部构图保持稳定，只在进场后的 XF_SEC 内与上一镜头叠化。
+    """
     if not enabled:
         print("已跳过放大/圈画（--no-zoom）")
         return
+    items = build_items(SEGMENTS)
+    print("镜头序列：" + " |".join(
+        f"{it['t0']:.1f}-{it['t1']:.1f}" + ("" if it["kind"] == "shot" else "(原片)") for it in items))
     done = 0
     last_key, last_out = None, None
     for i in range(n):
         t = i / FPS
-        seg = seg_at(t)
-        if not seg or not seg[2]:
+        idx = item_index_at(items, t)
+        if idx is None:
             continue
-        t0, t1, key, note, ann, mode = seg
-        layout = pick_layout(snaps, t0)
-        rect = focus_rect(layout, key)
-        if not rect:
-            continue
-        pin = ease((t - t0) / (RAMP_IN / FPS))
-        pout = ease((t1 - t) / (RAMP_OUT / FPS))
-        p = min(pin, pout)
-        if mode == "pip":
-            win = [0.0, 0.0, float(W), float(H)]          # pip 不动源窗口，只动面板
-        else:
-            target = window_for(rect)
-            win = [lerp(0, target[j], p) for j in range(4)]
+        cur = items[idx]
+        prev = items[idx - 1] if idx > 0 else None
+        el = t - cur["t0"]
+        alpha = ease(el / XF_SEC) if (prev is not None and el < XF_SEC) else 1.0
+        if cur["kind"] == "raw" and alpha >= 1.0:
+            continue                      # 纯原片，不用动
 
         fp = seq_dir / f"{LEAD + i + 1:05d}.jpg"
         # 录屏里大量相邻帧是同一张源图（重采样时是**硬链接**）。
@@ -503,42 +573,19 @@ def compose(seq_dir: Path, n: int, snaps, enabled: bool = True):
             ino = os.stat(fp).st_ino
         except OSError:
             ino = None
-        sig = (mode, int(round(p * 100)), ino) if mode == "pip" else \
-              (mode, int(round(win[0])), int(round(win[1])), int(round(win[2])), int(round(win[3])), ino)
+        sig = (ino, idx, int(round(alpha * 40)))
         if sig == last_key and last_out is not None and last_out.exists():
             fp.unlink()
             shutil.copy2(last_out, fp)
             done += 1
             continue
-        if p <= 0.02:            # 还没开始放大：保持原帧，直接跳过（不做无谓解码）
-            continue
 
         img = Image.open(fp).convert("RGB")
-        if mode == "pip":
-            out, ox, oy, sc = pip_frame(img, rect, p)
-        else:
-            x, y, w, h = [int(round(v)) for v in win]
-            x, y = max(0, min(x, W - w)), max(0, min(y, H - h))
-            w, h = min(w, W - x), min(h, H - y)
-            out = img.crop((x, y, x + w, y + h)).resize((W, H), Image.LANCZOS)
-            sc = W / w
-            ox, oy = -x * sc, -y * sc
-        d = ImageDraw.Draw(out, "RGBA")
-        # 圈画：统一用 屏幕坐标 = 源坐标 × sc + (ox, oy)
-        if ann and ann[0] == "pt":
-            pt = (layout.get("pts") or {}).get(ann[1])
-            if pt:
-                cx, cy = pt[0] * sc + ox, pt[1] * sc + oy
-                r = 104 * p
-                ring(d, (cx - r, cy - r, cx + r, cy + r), p, True)
-        elif ann:
-            bx = ann_box(layout, ann, rect)
-            if bx:
-                ax, ay = bx[0] * sc + ox, bx[1] * sc + oy
-                aw, ah = bx[2] * sc, bx[3] * sc
-                ring(d, (ax, ay, ax + aw, ay + ah), p, False)
-        if note:
-            chip(d, note, p)
+        out, _, _, _ = compose_shot(img, cur, snaps, t)
+        if alpha < 1.0 and prev is not None:
+            # 用同一个源帧渲染上一镜头的**稳定构图**，再按 alpha 叠化
+            prev_img, _, _, _ = compose_shot(img, prev, snaps, prev["t1"])
+            out = Image.blend(prev_img, out, alpha)
         fp.unlink()                      # 解链：让这一格拿到自己的新 inode
         out.save(fp, "JPEG", quality=95)
         last_key, last_out = sig, fp
